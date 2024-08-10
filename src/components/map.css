@@ -1,0 +1,50 @@
+.map-contact20 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-custom-primary1);
+}
+.map-max-width {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.map-section-title {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.map-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.map-iframe {
+  width: 100%;
+  height: auto;
+  min-height: 720px;
+  object-fit: cover;
+}
+.map-text2 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  display: inline-block;
+  font-size: 46px;
+  font-family: "Nunito";
+}
+.map-text3 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  display: inline-block;
+  text-align: center;
+}
+

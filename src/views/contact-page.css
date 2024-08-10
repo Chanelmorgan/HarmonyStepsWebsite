@@ -1,0 +1,82 @@
+.contact-page-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact-page-text {
+  display: inline-block;
+}
+.contact-page-text01 {
+  display: inline-block;
+}
+.contact-page-text02 {
+  display: inline-block;
+}
+.contact-page-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.contact-page-link1 {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.contact-page-text03 {
+  display: inline-block;
+  text-align: center;
+}
+.contact-page-text05 {
+  display: inline-block;
+}
+.contact-page-text06 {
+  display: inline-block;
+  text-align: center;
+}
+.contact-page-text07 {
+  display: inline-block;
+  text-align: center;
+}
+.contact-page-text08 {
+  display: inline-block;
+  text-align: center;
+}
+.contact-page-text09 {
+  display: inline-block;
+}
+.contact-page-text10 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  display: inline-block;
+  text-align: center;
+  font-family: "Nunito";
+}
+.contact-page-text13 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+  font-family: "Nunito";
+}
+@media(max-width: 1600px) {
+  .contact-page-link {
+    text-decoration: inherit;
+  }
+  .contact-page-link1 {
+    text-decoration: underline;
+  }
+  .contact-page-link2 {
+    text-decoration: underline;
+  }
+  .contact-page-text06 {
+    font-family: Nunito;
+  }
+  .contact-page-text07 {
+    font-family: Nunito;
+  }
+  .contact-page-text08 {
+    font-family: Nunito;
+  }
+}

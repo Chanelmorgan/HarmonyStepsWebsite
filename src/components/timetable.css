@@ -1,0 +1,379 @@
+.timetable-container {
+  width: 2061px;
+  height: 723px;
+  padding-top: 45px;
+  background-color: #222684;
+}
+.timetable-max-width {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.timetable-container01 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.timetable-text {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-family: "Nunito";
+}
+.timetable-text01 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: left;
+  font-family: "Nunito";
+}
+.timetable-timeline-container {
+  flex: 1;
+  width: 825px;
+  height: 867px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.timetable-step1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.timetable-container02 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.timetable-container03 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-progress0 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #787878;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-secondary1);
+}
+.timetable-container04 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.timetable-text02 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-family: "Nunito";
+}
+.timetable-text03 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: left;
+  font-family: "Nunito";
+}
+.timetable-container05 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.timetable-navlink {
+  border-color: var(--dl-color-custom-accent1);
+  text-decoration: none;
+  background-color: var(--dl-color-custom-accent1);
+}
+.timetable-step2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.timetable-container06 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.timetable-container07 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-progress01 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #787878;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-container08 {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.timetable-text05 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+}
+.timetable-text06 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: left;
+  font-family: "Nunito";
+}
+.timetable-container09 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.timetable-navlink1 {
+  border-color: var(--dl-color-custom-accent1);
+  text-decoration: none;
+  background-color: var(--dl-color-custom-accent1);
+}
+.timetable-step3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.timetable-container10 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.timetable-container11 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-progress02 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #787878;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-container12 {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.timetable-text08 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-family: "Nunito";
+}
+.timetable-text09 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: left;
+  font-family: "Nunito";
+}
+.timetable-text10 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-family: "Nunito";
+}
+.timetable-container13 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.timetable-navlink2 {
+  border-color: var(--dl-color-custom-accent1);
+  text-decoration: none;
+  background-color: var(--dl-color-custom-accent1);
+}
+.timetable-step4 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.timetable-container14 {
+  flex: 1;
+  left: var(--dl-space-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.timetable-container15 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-round);
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-progress03 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #787878;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.timetable-text11 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  display: inline-block;
+  font-family: "Nunito";
+}
+.timetable-text16 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  display: inline-block;
+  font-family: "Nunito";
+}
+.timetable-root-class-name {
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 1600px) {
+  .timetable-max-width {
+    height: 680px;
+  }
+}
+@media(max-width: 1200px) {
+  .timetable-text01 {
+    color: var(--dl-color-custom-neutral-light);
+    font-family: Nunito;
+  }
+}
+@media(max-width: 991px) {
+  .timetable-container {
+    width: 943px;
+    height: 1011px;
+  }
+  .timetable-max-width {
+    gap: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 767px) {
+  .timetable-container {
+    width: 707px;
+    height: 1018px;
+  }
+  .timetable-max-width {
+    flex-direction: column;
+  }
+  .timetable-text01 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .timetable-text03 {
+    text-align: left;
+  }
+  .timetable-text06 {
+    text-align: left;
+  }
+  .timetable-text09 {
+    text-align: left;
+  }
+}
+@media(max-width: 479px) {
+  .timetable-container {
+    width: 479px;
+    height: 1161px;
+    margin-right: 11px;
+  }
+  .timetable-container01 {
+    gap: var(--dl-space-space-unit);
+  }
+  .timetable-text01 {
+    color: var(--dl-color-custom-neutral-light);
+    font-family: Nunito;
+  }
+  .timetable-timeline-container {
+    width: 100%;
+  }
+  .timetable-container05 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .timetable-container09 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .timetable-container13 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

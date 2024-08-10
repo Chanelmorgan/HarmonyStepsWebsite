@@ -1,0 +1,108 @@
+.features17-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-secondary1);
+}
+.features17-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+.features17-image-container {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.features17-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features17-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features17-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features17-text2 {
+  display: inline-block;
+  line-height: auto%;
+}
+.features17-text3 {
+  display: inline-block;
+}
+
+@media(max-width: 1600px) {
+  .features17-layout349 {
+    background-color: var(--dl-color-custom-neutral-light);
+  }
+  .features17-content1 {
+    width: 583px;
+    height: 201px;
+  }
+}
+@media(max-width: 1200px) {
+  .features17-placeholder-image {
+    width: 434px;
+    height: 292px;
+  }
+  .features17-text3 {
+    width: 376px;
+    height: 83px;
+  }
+}
+@media(max-width: 991px) {
+  .features17-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .features17-placeholder-image {
+    width: 732px;
+    height: 560px;
+  }
+}
+@media(max-width: 767px) {
+  .features17-layout349 {
+    width: 767px;
+    height: 1032px;
+  }
+  .features17-placeholder-image {
+    width: 482px;
+    height: 364px;
+  }
+  .features17-section-title {
+    width: 484px;
+    height: 287px;
+  }
+  .features17-text2 {
+    width: 307px;
+    height: 68px;
+  }
+}
+@media(max-width: 479px) {
+  .features17-layout349 {
+    height: 789px;
+  }
+  .features17-placeholder-image {
+    width: 427px;
+    height: 296px;
+  }
+  .features17-section-title {
+    width: 320px;
+    height: 271px;
+  }
+}

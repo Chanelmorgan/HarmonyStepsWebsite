@@ -1,0 +1,49 @@
+.contact-banner-container {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-custom-secondary1);
+}
+.contact-banner-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-banner-container1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-banner-title {
+  fill: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-neutral-dark);
+  font-size: 36px;
+  text-align: center;
+  font-family: "Nunito";
+}
+.contact-banner-text {
+  fill: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-neutral-dark);
+  text-align: center;
+  font-family: "Nunito";
+}
+.contact-banner-root-class-name {
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 1600px) {
+  .contact-banner-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--dl-color-custom-secondary1);
+  }
+  .contact-banner-max-width {
+    width: auto;
+  }
+}

@@ -1,0 +1,27 @@
+.about-page-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-page-text {
+  display: inline-block;
+  line-height: auto%;
+}
+.about-page-text1 {
+  display: inline-block;
+}
+@media(max-width: 1200px) {
+  .about-page-text1 {
+    width: 376px;
+    height: 83px;
+  }
+}
+@media(max-width: 767px) {
+  .about-page-text {
+    width: 307px;
+    height: 68px;
+  }
+}
