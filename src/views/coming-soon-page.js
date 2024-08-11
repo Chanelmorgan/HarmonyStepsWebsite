@@ -1,30 +1,24 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Navbar from '../components/navbar2'
-import ComingSoon from '../components/coming-soon'
-import './coming-soon-page.css'
+import './not-found.css'
 
-const ComingSoonPage = (props) => {
+const NotFound = (props) => {
   return (
-    <div className="coming-soon-page-container">
+    <div className="not-found-container">
       <Helmet>
-        <title>Harmony Steps</title>
+        <title>404 - Not Found</title>
       </Helmet>
-      <Navbar rootClassName="navbar-root-class-name6"></Navbar>
-      <ComingSoon
-        bannerTitle={
-          <Fragment>
-            <h2 className="coming-soon-page-text thq-heading-2">
-              COMING SOON......
-            </h2>
-          </Fragment>
-        }
-        rootClassName="coming-soon-root-class-name"
-      ></ComingSoon>
+      <h3>COMING SOON</h3>
+     
+      <div className="not-found-container2">
+        <h2 className="not-found-text2">
+          WE ARE SORRY, BUT THE PAGE YOU REQUESTED IS COMING SOON
+        </h2>
+      </div>
     </div>
   )
 }
 
-export default ComingSoonPage
+export default NotFound

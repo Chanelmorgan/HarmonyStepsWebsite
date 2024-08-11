@@ -16,7 +16,8 @@
   justify-content: space-between;
 }
 .navbar2-image1 {
-  height: 3rem;
+  height: 5rem;
+  width: auto;
 }
 .navbar2-desktop-menu {
   flex: 1;
