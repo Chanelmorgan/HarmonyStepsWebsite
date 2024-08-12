@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fjalla+One&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap');z
+
 .musical-theare-info-layout349 {
   display: flex;
   overflow: hidden;
@@ -30,6 +32,7 @@
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
+  
 }
 .musical-theare-info-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -40,9 +43,9 @@
 }
 .musical-theare-info-text {
   fill: var(--dl-color-custom-neutral-dark);
-  color: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-primary1);
   font-size: 48px;
-  font-family: "Nunito";
+ 
 }
 .musical-theare-info-text1 {
   fill: var(--dl-color-custom-neutral-dark);

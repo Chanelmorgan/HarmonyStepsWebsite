@@ -53,6 +53,8 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fjalla+One&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap');
+
 .button {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
@@ -192,11 +194,26 @@
   font-weight: 700;
   line-height: 1.5;
 }
-.thq-heading-2 {
-  font-size: 35px;
-  font-family: Bricolage Grotesque;
-  font-weight: 600;
+.classHeading{
   line-height: 1.5;
+  fill: var(--dl-color-custom-neutral-dark);
+  color: var(white);
+  font-size: 48px;
+  font-family: "Fjalla One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.thq-heading-2 {
+  line-height: 1.5;
+  fill: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-primary1);
+  font-size: 48px;
+  font-family: "Fjalla One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  
 }
 .thq-heading-3 {
   font-size: 26px;

@@ -12,7 +12,7 @@ const Timetable = (props) => {
     >
       <div className="timetable-max-width thq-section-max-width">
         <div className="timetable-container01">
-          <h2 className="timetable-text thq-heading-2">{props.title1}</h2>
+          <h2 className="timetable-text classHeading">{props.title1}</h2>
           <span className="timetable-text01 thq-body-small">
             {props.content1}
           </span>
