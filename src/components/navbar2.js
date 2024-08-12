@@ -17,15 +17,7 @@ const Navbar2 = (props) => {
         </Link>
         <div data-thq="thq-navbar-nav" className="navbar2-desktop-menu">
           <nav className="navbar2-links">
-            <Link to={props.link1Url} className="navbar2-link1">
-              {props.link1 ?? (
-                <Fragment>
-                  <span className="navbar2-text4 thq-link thq-body-small">
-                    About
-                  </span>
-                </Fragment>
-              )}
-            </Link>
+           
             <Link to={props.link2Url} className="navbar2-link2">
               {props.link2 ?? (
                 <Fragment>
