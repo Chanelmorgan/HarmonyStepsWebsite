@@ -335,7 +335,7 @@ const Home = (props) => {
       <div className="home-footer">
         <Footer
           logo="Harmony Steps "
-          text="© 2024 Harmony Steps,  All Rights Reserved."
+          text="© 2024 Harmony Steps, developed by Chanel Morgan."
         ></Footer>
       </div>
     </div>

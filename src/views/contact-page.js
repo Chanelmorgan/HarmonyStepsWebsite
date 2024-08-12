@@ -38,7 +38,7 @@ const ContactPage = (props) => {
         content2={
           <Fragment>
             <span className="contact-page-text01 thq-body-small">
-              Get in touch with us
+              Get in touch with us today!
             </span>
           </Fragment>
         }
@@ -89,7 +89,7 @@ const ContactPage = (props) => {
         content2={
           <Fragment>
             <span className="contact-page-text05 thq-body-small">
-              Get in touch with us today!
+              
             </span>
           </Fragment>
         }
@@ -116,7 +116,7 @@ const ContactPage = (props) => {
         }
         heading1={
           <Fragment>
-            <h2 className="contact-page-text09 thq-heading-2">Contact Us</h2>
+            <h2 className="contact-page-text09 thq-heading-2">Get in Contact with us today!</h2>
           </Fragment>
         }
         rootClassName="contact3-root-class-name"

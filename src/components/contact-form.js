@@ -17,15 +17,7 @@ const ContactForm = (props) => {
         />
         <div className="contact-form-content thq-flex-column">
           <div className="contact-form-section-title thq-card">
-            <span>
-              {props.content2 ?? (
-                <Fragment>
-                  <span className="contact-form-text7 thq-body-small">
-                    Get in touch with us
-                  </span>
-                </Fragment>
-              )}
-            </span>
+           
             <div className="contact-form-content1">
               <h2>
                 {props.heading1 ?? (
