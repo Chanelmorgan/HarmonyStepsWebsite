@@ -7,12 +7,13 @@ const Navbar2 = (props) => {
   return (
     <header className="navbar2-container">
       <header data-thq="thq-navbar" className="navbar2-navbar-interactive">
-        <Link to="/" className="navbar2-link1">
-        <img
+        <Link to="/" className="navbar2-link1"> 
+        HARMONY STEPS 
+                {/* <img
           alt={props.logoAlt}
           src={props.logoSrc}
           className="navbar2-image1"
-        />
+        /> */}
         </Link>
         <div data-thq="thq-navbar-nav" className="navbar2-desktop-menu">
           <nav className="navbar2-links">

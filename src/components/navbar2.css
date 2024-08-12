@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fjalla+One&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap');
 .navbar2-container {
   width: 100%;
   display: flex;
   position: relative;
   justify-content: center;
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-custom-secondary1);
 }
 .navbar2-navbar-interactive {
   width: 100%;
@@ -34,8 +35,14 @@
 }
 .navbar2-link1 {
   text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  color: rgb(55, 55, 126);
 }
 .navbar2-link2 {
+  
   text-decoration: none;
 }
 .navbar2-link3 {

@@ -21,7 +21,7 @@ const ClassesPage = (props) => {
         <meta property="og:description" content="HarmonySteps" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name3"></Navbar>
-      <ClassesBanner rootClassName="classes-banner-root-class-name"></ClassesBanner>
+      {/* <ClassesBanner rootClassName="classes-banner-root-class-name"></ClassesBanner> */}
       <PomInfo
         rootClassName="pom-info-root-class-name"
         feature1ImageSrc="/cheerleading-1400w.webp"

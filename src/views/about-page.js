@@ -22,7 +22,7 @@ const AboutPage = (props) => {
         text3="About"
         rootClassName="navbar-root-class-name4"
       ></Navbar>
-      <AboutUsBanner rootClassName="about-us-banner-root-class-name"></AboutUsBanner>
+      {/* <AboutUsBanner rootClassName="about-us-banner-root-class-name"></AboutUsBanner> */}
       <Features17
         feature1Title={
           <Fragment>

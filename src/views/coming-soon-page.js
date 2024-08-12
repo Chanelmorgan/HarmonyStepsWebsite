@@ -8,9 +8,9 @@ const NotFound = (props) => {
   return (
     <div className="not-found-container">
       <Helmet>
-        <title>404 - Not Found</title>
+        <title>Events</title>
       </Helmet>
-      <h3>COMING SOON</h3>
+     
      
       <div className="not-found-container2">
         <h2 className="not-found-text2">

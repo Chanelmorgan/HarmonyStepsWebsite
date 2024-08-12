@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
-
+import Features17 from '../components/features17'
 import Navbar from '../components/navbar2'
 import FeatureCard from '../components/feature-card'
 import FeatureCard2 from '../components/feature-card2'
@@ -116,6 +116,23 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <Features17
+        feature1Title={
+          <Fragment>
+            <h2 className="about-page-text thq-heading-2">Meet The Coach</h2>
+          </Fragment>
+        }
+        rootClassName="features17-root-class-name"
+        feature1Description={
+          <Fragment>
+            <p className="about-page-text1 thq-body-large">
+              At Harmony Steps, we believe in the power of teamwork. Our program
+              fosters collaboration and support among all participants to create
+              stunning performances.
+            </p>
+          </Fragment>
+        }
+      ></Features17>
       <div className="home-features">
         <div className="featuresContainer">
           <div className="home-features1">

@@ -18,13 +18,17 @@ const ContactPage = (props) => {
         <meta name="description" content="HarmonySteps" />
         <meta property="og:title" content="ContactPage - Harmony Steps " />
         <meta property="og:description" content="HarmonySteps" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap" rel="stylesheet" />
+        
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name2"></Navbar>
-      <ContactBanner
+      {/* <ContactBanner
         action1="Explore Classes"
         content1="Empowering performers through precision, technique, and artistry"
         rootClassName="contact-banner-root-class-name"
-      ></ContactBanner>
+      ></ContactBanner> */}
       <ContactForm
         action={
           <Fragment>

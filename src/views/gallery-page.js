@@ -19,10 +19,11 @@ const GalleryPage = (props) => {
         <meta property="og:description" content="HarmonySteps" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name1"></Navbar>
-      <GalleryBanner
+      {/* <GalleryBanner
         action1="Explore Classes"
         rootClassName="gallery-banner-root-class-name"
-      ></GalleryBanner>
+      ></GalleryBanner> */} 
+      
       <Gallery1
         image1Src="/43b0757c-704c-4ded-aa8f-39521eb5e168-1500w.jpg"
         image2Src="/31cb33ed-0712-40b2-a01b-aea3ee7b091c-1500w.jpg"
