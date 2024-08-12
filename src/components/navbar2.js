@@ -64,11 +64,13 @@ const Navbar2 = (props) => {
         <div data-thq="thq-mobile-menu" className="navbar2-mobile-menu">
           <div className="navbar2-nav">
             <div className="navbar2-top">
+              <a href="/">
               <img
                 alt={props.logoAlt}
                 src={props.logoSrc}
                 className="navbar2-logo"
               />
+              </a>
               <div data-thq="thq-close-menu" className="navbar2-close-menu">
                 <svg viewBox="0 0 1024 1024" className="navbar2-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
