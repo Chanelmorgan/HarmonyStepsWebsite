@@ -44,7 +44,7 @@ const Contact3 = (props) => {
                 <p>
                   {props.content3 ?? (
                     <Fragment>
-                      <p className="contact3-text10 thq-body-large">
+                      <p className="contact3-text10">
                         Contact us for more information.
                       </p>
                     </Fragment>

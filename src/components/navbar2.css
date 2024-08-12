@@ -5,6 +5,7 @@
   position: relative;
   justify-content: center;
   background-color: var(--dl-color-custom-secondary1);
+  color: var(--dl-color-custom-secondary1);
 }
 .navbar2-navbar-interactive {
   width: 100%;
@@ -32,6 +33,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
+  color: rgb(55, 55, 126);
 }
 .navbar2-link1 {
   text-decoration: none;

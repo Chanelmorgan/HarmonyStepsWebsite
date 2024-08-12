@@ -6,6 +6,9 @@
   align-items: center;
   flex-direction: column;
 }
+.subline{
+  color: var( --dl-color-custom-primary1);
+}
 .home-header {
   width: 1920px;
   height: 124px;
@@ -75,6 +78,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
+  color: var(--dl-color-custom-primary1);
 }
 .home-container2 {
   display: flex;

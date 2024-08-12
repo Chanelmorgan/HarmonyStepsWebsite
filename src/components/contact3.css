@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center; /* Added for horizontal centering */
   flex-direction: column;
+  color: var(--dl-color-custom-primary1);
 }
 
 .contact3-section-title {
@@ -50,6 +51,8 @@
   align-items: center;
   justify-content: center; /* Added for horizontal centering */
   flex-direction: column;
+  text-align: center;
+  color: var(--dl-color-custom-primary1);
 }
 
 .contact3-contact-info {
@@ -121,6 +124,7 @@
 .contact3-icon4 {
   width: 42px;
   height: 51px;
+  color: var(--dl-color-custom-primary1); 
 }
 
 .contact3-contact-info2 {
@@ -139,9 +143,11 @@
   align-items: stretch;
   justify-content: center; /* Added for horizontal centering */
   flex-direction: column;
+  text-align: center;
 }
 
 .contact3-text06 {
+  display: inline-block;
   align-self: stretch;
   text-align: center;
 }
@@ -172,14 +178,14 @@
     background-color: var(--dl-color-theme-secondary1);
   }
   .contact3-icon {
-    fill: var(--dl-color-custom-neutral-dark);
+    fill: var(--dl-color-custom-primary1);
   }
   .contact3-text02 {
-    color: var(--dl-color-theme-neutral-dark);
+    color: var(--dl-color-custom-primary1);
     font-family: Nunito;
   }
   .contact3-icon2 {
-    fill: var(--dl-color-custom-neutral-dark);
+    fill: var(--dl-color-custom-primary1);
   }
   .contact3-text04 {
     font-family: Nunito;

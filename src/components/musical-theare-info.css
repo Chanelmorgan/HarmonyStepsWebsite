@@ -42,25 +42,33 @@
   flex-direction: column;
 }
 .musical-theare-info-text {
-  fill: var(--dl-color-custom-neutral-dark);
+  fill: var(--dl-color-custom-primary1);
   color: var(--dl-color-custom-primary1);
   font-size: 48px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  color: rgb(55, 55, 126);
  
 }
 .musical-theare-info-text1 {
-  fill: var(--dl-color-custom-neutral-dark);
-  color: var(--dl-color-custom-neutral-dark);
+  fill: var(--dl-color-custom-primary1);
+  color: var(--dl-color-custom-primary1);
   font-family: "Nunito";
 }
 @media(max-width: 1600px) {
   .musical-theare-info-text {
-    color: var(--dl-color-custom-neutral-dark);
+    color: var(--dl-color-custom-primary1);
     font-size: 36px;
-    font-family: Nunito;
+    font-family: "Fjalla One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  
   }
   .musical-theare-info-text1 {
-    color: var(--dl-color-custom-neutral-dark);
-    font-family: Nunito;
+    color: var(--dl-color-custom-primary1);
+
   }
 }
 @media(max-width: 991px) {

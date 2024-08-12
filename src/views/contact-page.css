@@ -6,11 +6,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-h1{
-  font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
+
 .contact-page-text {
   display: inline-block;
 }
@@ -63,7 +59,7 @@ h1{
   fill: var(--dl-color-custom-neutral-light);
   color: var(--dl-color-theme-secondary1);
   display: inline-block;
-  font-family: "Nunito";
+  
 }
 @media(max-width: 1600px) {
   .contact-page-link {

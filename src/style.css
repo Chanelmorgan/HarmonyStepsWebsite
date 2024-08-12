@@ -371,6 +371,7 @@
 .thq-icon-x-small {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  color: var(--dl-color-custom-primary1);
 }
 .thq-link {
   cursor: pointer;
@@ -556,7 +557,7 @@
   border-color: var(--dl-color-custom-primary1);
 }
 .buttonFlat {
-  color: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-primary1);
   font-family: Bricolage Grotesque;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
@@ -565,7 +566,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
 }
 .buttonFlat:hover {
-  color: var(--dl-color-custom-accent1);
+  color: var(--dl-color-custom-secondary1);
 }
 .featuresContainer {
   flex: 0 0 auto;
@@ -662,7 +663,7 @@
   display: flex;
   min-height: auto;
   align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
+   
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
@@ -734,11 +735,16 @@
   line-height: 150%;
 }
 .heading1 {
-  font-size: 48px;
+  font-size: 58px;
   text-align: center;
-  font-family: Bricolage Grotesque;
   font-weight: 700;
-  line-height: 150%;
+  line-height: 150%; 
+  font-family: "Fjalla One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: var(--dl-color-custom-primary1);
+
 }
 .heading3 {
   font-size: 20px;
@@ -757,9 +763,12 @@
 }
 .heading2 {
   font-size: 35px;
-  font-family: Bricolage Grotesque;
   font-weight: 600;
   line-height: 150%;
+  font-family: "Fjalla One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
 }
 .bodyLarge {
   font-size: 18px;

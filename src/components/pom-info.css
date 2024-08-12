@@ -35,7 +35,7 @@
 .pom-info-text {
   fill: var(--dl-color-custom-neutral-dark);
   color: var(--dl-color-custom-primary1);
-  font-size: 48px;
+  font-size: 36px;
   font-family: "Fjalla One", system-ui;
   font-weight: 400;
   font-style: normal;

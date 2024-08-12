@@ -38,7 +38,7 @@ const Home = (props) => {
             <span className="home-hero-sub-heading bodyLarge">
               <span>
                 <span>
-                  <span>Empowering Performances with Style and Precision</span>
+                  <span className="subline">Empowering Performances with Style and Precision</span>
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
@@ -109,7 +109,7 @@ const Home = (props) => {
                   <br></br>
                 </span>
               </Link>
-              <Link to="/about-page" className="home-hero-button2 buttonFlat">
+              <Link to="/contact-page" className="home-hero-button2 buttonFlat">
                 Learn More →
               </Link>
             </div>
@@ -303,7 +303,7 @@ const Home = (props) => {
                   <Fragment>
                     <span className="home-text51">
                       Our musical theatre classes cover acting, singing, and
-                      dancing, focusing on performance skills, stage peresence,
+                      dancing, focusing on performance skills, stage presence,
                       adn character development.
                     </span>
                   </Fragment>
@@ -317,11 +317,10 @@ const Home = (props) => {
                     <span className="home-text52">
                       <span>
                         Pom cheerleading combines dance and cheerleading
-                        techniques, using pom-poms to enhance visual effect of 
+                        techniques, using pom-poms to enhance visual effect of routines.
                       </span>
                       <br></br>
-                      <span>routines.</span>
-                      <br></br>
+                      
                     </span>
                   </Fragment>
                 }

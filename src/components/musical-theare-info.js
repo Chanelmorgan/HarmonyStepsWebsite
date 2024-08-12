@@ -18,10 +18,10 @@ const MusicalTheareInfo = (props) => {
         <div className="musical-theare-info-content">
           <div className="musical-theare-info-section-title">
             <div className="musical-theare-info-content1">
-              <h2 className="musical-theare-info-text thq-heading-2">
+              <h2 className="musical-theare-info-text">
                 {props.feature1Title}
               </h2>
-              <p className="musical-theare-info-text1 thq-body-large">
+              <p className="musical-theare-info-text1">
                 {props.feature1Description}
               </p>
             </div>

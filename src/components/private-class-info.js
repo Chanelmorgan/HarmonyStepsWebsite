@@ -11,7 +11,7 @@ const PrivateClassInfo = (props) => {
         <div className="private-class-info-content">
           <div className="private-class-info-section-title">
             <div className="private-class-info-content1">
-              <h2 className="private-class-info-text thq-heading-2">
+              <h2 className="private-class-info-text">
                 {props.feature1Title}
               </h2>
               <p className="private-class-info-text1 thq-body-large">
