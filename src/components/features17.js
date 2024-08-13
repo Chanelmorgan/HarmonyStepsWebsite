@@ -32,8 +32,9 @@ const Features17 = (props) => {
               <p>
                 {props.feature1Description ?? (
                   <Fragment>
-                    <p className="features17-text3 thq-body-large">
-                      At Harmony Steps, we believe in the power of teamwork. Our
+                    <p className="features17-text3">
+                      At Harmony Steps, we believe in the 
+                      power of teamwork. Our
                       program fosters collaboration and support among all
                       participants to create stunning performances.
                     </p>

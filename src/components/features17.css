@@ -1,3 +1,4 @@
+/* Base styles */
 .features17-layout349 {
   display: flex;
   overflow: hidden;
@@ -5,104 +6,131 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--dl-color-theme-secondary1);
+  padding: 20px; /* Padding for spacing */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+  text-align: left; /* Align text to the left */
+  margin: 0 auto; /* Center the layout horizontally */
 }
+
 .features17-max-width {
   gap: var(--dl-space-space-fiveunits);
   display: flex;
   align-items: center;
+  flex-wrap: wrap; /* Allows wrapping of items */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 1200px; /* Max width for larger screens */
+  margin: 0 auto; /* Centers the container */
 }
+
 .features17-image-container {
   flex: 1;
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: center; /* Center the image inside the container */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 100%; /* Prevents image from exceeding its container */
 }
+
 .features17-content {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
   display: flex;
-  align-items: flex-start;
+  align-items: left; /* Center align items vertically */
   flex-direction: column;
+  width: 100%; /* Full width for responsiveness */
+  max-width: 600px; /* Max width for better readability */
+  margin: 0 auto; /* Center the content */
+  padding: 10px; /* Padding for better spacing */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
 }
-.features17-section-title {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
+
+.features17-section-title,
 .features17-content1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
-  align-self: stretch;
-  align-items: flex-start;
+  align-items: center; /* Center align items vertically */
   flex-direction: column;
-}
-.features17-text2 {
-  display: inline-block;
-  line-height: auto%;
-}
-.features17-text3 {
-  display: inline-block;
+  width: 100%; /* Full width for responsiveness */
+  max-width: 600px; /* Max width for better readability */
+  margin: 0 auto; /* Center the container */
 }
 
+.features17-text2,
+.features17-text3 {
+  display: block; /* Ensure full width block elements */
+  width: 100%; /* Full width for responsiveness */
+  box-sizing: border-box; /* Includes padding and border in width calculations */
+  text-align: left; /* Align text to the left */
+  word-wrap: break-word; /* Allows long words to wrap to the next line */
+  hyphens: auto; /* Automatically adds hyphens for better text wrapping */
+  overflow-wrap: break-word; /* Prevents text overflow */
+  padding: 0 10px; /* Padding to prevent text from cutting off */
+  font-size: clamp(1rem, 2vw + 1rem, 2rem); /* Fluid typography scaling with viewport width */
+}
+
+/* Responsive styles */
 @media(max-width: 1600px) {
   .features17-layout349 {
     background-color: var(--dl-color-custom-neutral-light);
   }
   .features17-content1 {
-    width: 583px;
-    height: 201px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
   }
 }
+
 @media(max-width: 1200px) {
   .features17-placeholder-image {
-    width: 434px;
-    height: 292px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
   }
   .features17-text3 {
-    width: 376px;
-    height: 83px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
+    padding: 0 10px; /* Ensure padding is maintained for small screens */
   }
 }
+
 @media(max-width: 991px) {
   .features17-max-width {
     gap: var(--dl-space-space-twounits);
     flex-direction: column;
   }
   .features17-placeholder-image {
-    width: 732px;
-    height: 560px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
   }
 }
+
 @media(max-width: 767px) {
   .features17-layout349 {
-    width: 767px;
-    height: 1032px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
   }
   .features17-placeholder-image {
-    width: 482px;
-    height: 364px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
   }
-  .features17-section-title {
-    width: 484px;
-    height: 287px;
-  }
+  .features17-section-title,
   .features17-text2 {
-    width: 307px;
-    height: 68px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
+    padding: 0 10px; /* Padding to prevent text from cutting off */
   }
 }
+
 @media(max-width: 479px) {
   .features17-layout349 {
-    height: 789px;
+    height: auto; /* Adjust height to auto for better scaling */
   }
   .features17-placeholder-image {
-    width: 427px;
-    height: 296px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
   }
   .features17-section-title {
-    width: 320px;
-    height: 271px;
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Adjust height to auto for better scaling */
+    padding: 0 10px; /* Padding to prevent text from cutting off */
   }
 }
