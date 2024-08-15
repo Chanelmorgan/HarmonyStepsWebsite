@@ -13,7 +13,7 @@ const Timetable = (props) => {
       <div className="timetable-max-width thq-section-max-width">
         <div className="timetable-container01">
           <h2 className="timetable-text classHeading">{props.title1}</h2>
-          <span className="timetable-text01 thq-body-small">
+          <span className="timetable-text01">
             {props.content1}
           </span>
         </div>
@@ -33,9 +33,9 @@ const Timetable = (props) => {
                   <Fragment>
                     <span className="timetable-text11 thq-body-small">
                       <span>BN23 6TH</span>
-                      <br></br>
+                      
                       <span>KC Conqueror hall, Harold Drive, Eastbourne</span>
-                      <br></br>
+                      
                     </span>
                   </Fragment>
                 )}
@@ -75,7 +75,7 @@ const Timetable = (props) => {
               <div className="timetable-container09">
                 <Link
                   to="/contact-page"
-                  className="timetable-navlink1 thq-button-filled"
+                  className="timetable-navlink"
                 >
                   {props.card2Action1}
                 </Link>
@@ -98,7 +98,7 @@ const Timetable = (props) => {
               <div className="timetable-container13">
                 <Link
                   to="/contact-page"
-                  className="timetable-navlink2 thq-button-filled"
+                  className="timetable-navlink"
                 >
                   {props.card3Action1}
                 </Link>
