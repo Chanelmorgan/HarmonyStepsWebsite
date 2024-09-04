@@ -13,13 +13,14 @@ const ContactForm = (props) => {
     };
 
     try {
-      const response = await fetch('https://harmony-steps-website-chanelmorgans-projects.vercel.app/submit-form', {
+      // Update the URL to your backend server for local or deployed environment
+      const response = await fetch('http://localhost:5001/submit-form', { // Use 'https://your-deployed-backend-url/submit-form' for production
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
-        mode: 'cors'
+        mode: 'cors',
       });
 
       if (!response.ok) {
