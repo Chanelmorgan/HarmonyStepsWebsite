@@ -13,14 +13,12 @@ const ContactForm = (props) => {
     };
 
     try {
-      // Update the URL to your backend server for local or deployed environment
-      const response = await fetch('http://localhost:5001/submit-form', { // Use 'https://your-deployed-backend-url/submit-form' for production
+      const response = await fetch('/api/submit-form', { // Use relative URL for serverless function
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
-        mode: 'cors',
       });
 
       if (!response.ok) {
@@ -43,9 +41,7 @@ const ContactForm = (props) => {
   };
 
   return (
-    <div
-      className={`contact-form-contact9 thq-section-padding ${props.rootClassName} `}
-    >
+    <div className={`contact-form-contact9 thq-section-padding ${props.rootClassName} `}>
       <div className="thq-flex-row thq-section-max-width contact-form-max-width">
         <img
           alt={props.imageAlt}
@@ -102,10 +98,7 @@ const ContactForm = (props) => {
               />
             </div>
             <div className="contact-form-container">
-              <label
-                htmlFor="contact-form-3-message"
-                className="thq-body-small"
-              >
+              <label htmlFor="contact-form-3-message" className="thq-body-small">
                 Message
               </label>
               <textarea
@@ -116,10 +109,7 @@ const ContactForm = (props) => {
                 className="thq-input"
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className="contact-form-button thq-button-filled"
-            >
+            <button type="submit" className="contact-form-button thq-button-filled">
               <span>
                 {props.action ?? (
                   <Fragment>
@@ -143,8 +133,7 @@ ContactForm.defaultProps = {
   imageAlt: 'Image1',
   rootClassName: '',
   content2: undefined,
-  imageSrc:
-    'https://images.unsplash.com/photo-1673890686816-d8ee4c181a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzEyMjQ5N3w&ixlib=rb-4.0.3&q=80&w=1080',
+  imageSrc: 'https://images.unsplash.com/photo-1673890686816-d8ee4c181a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzEyMjQ5N3w&ixlib=rb-4.0.3&q=80&w=1080',
 };
 
 ContactForm.propTypes = {
