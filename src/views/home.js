@@ -126,9 +126,9 @@ const Home = (props) => {
         feature1Description={
           <Fragment>
             <p className="about-page-text1 thq-body-large">
-              At Harmony Steps, we believe in the power of teamwork. Our program
-              fosters collaboration and support among all participants to create
-              stunning performances.
+            Hi there! I’m Bianca Matthews, and I’m excited to be here with you. At 22, I’ve had the chance to dive into my passions for cheerleading, dancing, and musical theater. My journey began with cheerleading, where I learned the importance of teamwork and high-energy routines. This passion naturally led me to, where I could express myself through movement and rhythm.
+
+Musical theater also holds a special place in my heart. Performing on stage has taught me so much about blending vocal skills with dramatic flair. I’m thrilled to bring all these experiences into coaching, and I’m here to help you explore your own talents and reach new heights.
             </p>
           </Fragment>
         }

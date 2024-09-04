@@ -14,7 +14,7 @@ const Features17 = (props) => {
           <img
             alt={props.feature1ImageAlt}
             src={props.feature1ImageSrc}
-            className="thq-img-ratio-16-9 features17-placeholder-image"
+            className="features17-placeholder-image"
           />
         </div>
         <div className="features17-content">
@@ -33,10 +33,12 @@ const Features17 = (props) => {
                 {props.feature1Description ?? (
                   <Fragment>
                     <p className="features17-text3">
-                      At Harmony Steps, we believe in the 
-                      power of teamwork. Our
-                      program fosters collaboration and support among all
-                      participants to create stunning performances.
+                    Hi there! I’m Coach Jamie, and I’m excited to be here with you. At 22,
+                     I’ve had the chance to dive into my passions for cheerleading, dancing, and musical theater. My journey began with cheerleading,
+                     where I learned the importance of teamwork and high-energy routines. 
+                     This passion naturally led me to dancing, where I could express myself through movement and rhythm.
+
+Musical theater also holds a special place in my heart. Performing on stage has taught me so much about blending vocal skills with dramatic flair. I’m thrilled to bring all these experiences into coaching, and I’m here to help you explore your own talents and reach new heights.
                     </p>
                   </Fragment>
                 )}
@@ -52,9 +54,9 @@ const Features17 = (props) => {
 Features17.defaultProps = {
   rootClassName: '',
   feature1Title: undefined,
-  feature1ImageAlt: 'Teamwork Image',
+  feature1ImageAlt: 'ME Image',
   feature1ImageSrc:
-    'https://images.unsplash.com/photo-1673890704085-8eba15da593a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzE0NjM4Mnw&ixlib=rb-4.0.3&q=80&w=1400',
+    'about-me.jpeg',
   feature1Description: undefined,
 }
 

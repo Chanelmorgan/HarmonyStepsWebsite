@@ -25,11 +25,22 @@
 .features17-image-container {
   flex: 1;
   display: flex;
-  position: relative;
+  position: relative; /* Allows positioning the image inside the container */
   align-items: center;
-  justify-content: center; /* Center the image inside the container */
+  justify-content: center; /* Center the image horizontally inside the container */
   width: 100%; /* Full width for responsiveness */
   max-width: 100%; /* Prevents image from exceeding its container */
+  height: auto; /* Maintains the aspect ratio */
+  padding-top: 20px; /* Adds padding at the top of the container to create space for the image */
+  border-radius: 15px; /* Rounds the corners of the container */
+  overflow: hidden; /* Ensures that the image respects the rounded corners of the container */
+}
+
+.features17-placeholder-image {
+  width: 100%; /* Full width for responsiveness */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Ensures the entire image fits within its container without being cropped */
+  border-radius: 15px; /* Rounds the corners of the image itself (optional) */
 }
 
 .features17-content {

@@ -84,7 +84,7 @@ MeetInfo.defaultProps = {
   image1Src:
     'about-me.jpeg',
   rootClassName: '',
-  content1: ' Meet the Coach ',
+  content1: 'Meet the Coach ',
   image1Alt: 'Image1Alt',
 }
 
