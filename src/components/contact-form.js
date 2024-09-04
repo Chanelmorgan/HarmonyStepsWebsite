@@ -13,7 +13,7 @@ const ContactForm = (props) => {
     };
 
     try {
-      const response = await fetch('http://localhost:5001/submit-form', {
+      const response = await fetch('https://harmony-steps-website-chanelmorgans-projects.vercel.app/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
