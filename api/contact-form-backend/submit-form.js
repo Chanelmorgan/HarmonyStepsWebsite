@@ -2,14 +2,14 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 
 export default function handler(req, res) {
-  // Handle CORS
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST');
+  // Add CORS headers
+  res.setHeader('Access-Control-Allow-Origin', 'https://harmony-steps-website-cmjgb9tke-chanelmorgans-projects.vercel.app'); // Change this to your frontend's exact URL
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') {
-    // Handle preflight requests
-    res.status(200).end();
+    // Handle the preflight request
+    res.status(200).end(); // Respond to the OPTIONS request
     return;
   }
 

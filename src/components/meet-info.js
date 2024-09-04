@@ -82,7 +82,7 @@ const MeetInfo = (props) => {
 MeetInfo.defaultProps = {
   text1: undefined,
   image1Src:
-    'https://images.unsplash.com/photo-1630884374423-3edd88dde332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODc4NDExM3w&ixlib=rb-4.0.3&q=80&w=1200',
+    'about-me.jpeg',
   rootClassName: '',
   content1: ' Meet the Coach ',
   image1Alt: 'Image1Alt',
