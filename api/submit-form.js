@@ -10,7 +10,7 @@ export default async function handler(req, res) {
 
     try {
       // Forward the data to Formspree
-      const response = await fetch('https://formspree.io/f/xblrbyzj', {
+      const response = await fetch('https://formspree.io/f/xblrbara', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
