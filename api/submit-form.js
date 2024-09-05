@@ -1,40 +1,33 @@
-import nodemailer from 'nodemailer';
-
+// pages/api/submit-form.js
 export default async function handler(req, res) {
-  // Handle CORS preflight requests
-  if (req.method === 'OPTIONS') {
-    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    res.setHeader('Access-Control-Allow-Origin', '*'); // Allow all origins or specify your frontend URL
-    res.status(200).end();
-    return;
-  }
-
-  // Handle POST requests
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
 
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
-
-    const mailOptions = {
-      from: email,
-      to: process.env.EMAIL_USER,
-      subject: `New Contact Form Submission from ${name}`,
-      text: `You have received a new message from ${name} (${email}):\n\n${message}`,
-    };
+    // Do some validation here if needed
+    if (!name || !email || !message) {
+      return res.status(400).json({ message: 'All fields are required' });
+    }
 
     try {
-      await transporter.sendMail(mailOptions);
-      res.status(200).json({ success: true, message: 'Form submitted successfully' });
+      // Forward the data to Formspree
+      const response = await fetch('https://formspree.io/f/xblrbyzj', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (response.ok) {
+        return res.status(200).json({ success: true, message: 'Form submitted successfully!' });
+      } else {
+        const errorData = await response.json();
+        return res.status(response.status).json({ message: errorData.error || 'Failed to submit the form' });
+      }
     } catch (error) {
-      console.error('Failed to send email:', error);
-      res.status(500).json({ success: false, message: 'Failed to send email' });
+      console.error('Error submitting form:', error);
+      return res.status(500).json({ message: 'Internal Server Error' });
     }
   } else {
     res.setHeader('Allow', ['POST']);
