@@ -9,7 +9,7 @@
   text-decoration: none;
   font-family: "Fjalla One", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: uppercase;
   font-size: 38px;
   color: rgb(55, 55, 126); 
 }
@@ -21,15 +21,15 @@
 
 .google-reviews-link {
   font-size: 18px;
-  color: #1a73e8;
+  color: #F1DDD9;
   text-decoration: none;
-  border: 1px solid #1a73e8;
+  border: 1px solid #F1DDD9;
   border-radius: 5px;
   padding: 10px 15px;
   display: inline-block;
 }
 
 .google-reviews-link:hover {
-  background-color: #1a73e8;
+  background-color: #ffefec;
   color: white;
 }
