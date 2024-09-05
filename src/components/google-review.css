@@ -6,8 +6,12 @@
 }
 
 .google-reviews-heading {
-  font-size: 24px;
-  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  color: rgb(55, 55, 126); 
 }
 
 .google-reviews-text {
