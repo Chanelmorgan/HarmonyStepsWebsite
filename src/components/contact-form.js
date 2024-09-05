@@ -6,33 +6,23 @@ const ContactForm = (props) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const formData = {
-      name: event.target.name.value,
-      email: event.target.email.value,
-      message: event.target.message.value,
-    };
+    const formData = new FormData(event.target);
 
     try {
-      const response = await fetch('/api/submit-form', { // Use relative URL for serverless function
+      const response = await fetch('https://formspree.io/f/xblrbyzj', { // Replace with your Formspree endpoint
         method: 'POST',
+        body: formData,
         headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+          'Accept': 'application/json'
+        }
       });
 
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-
-      const result = await response.json();
-      if (result.success) {
-        alert(result.message);
-
-        // Clear the form fields
-        event.target.reset();
+      if (response.ok) {
+        alert('Message sent successfully!');
+        event.target.reset(); // Clear the form fields
       } else {
-        alert('Failed to submit the form');
+        const result = await response.json();
+        alert(result.error ? result.error : 'Failed to submit the form');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -82,6 +72,7 @@ const ContactForm = (props) => {
                 name="name"
                 placeholder="Name"
                 className="thq-input"
+                required
               />
             </div>
             <div className="contact-form-input1">
@@ -107,6 +98,7 @@ const ContactForm = (props) => {
                 rows="3"
                 placeholder="Enter your message"
                 className="thq-input"
+                required
               ></textarea>
             </div>
             <button type="submit" className="contact-form-button thq-button-filled">
