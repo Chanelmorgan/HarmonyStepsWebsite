@@ -221,11 +221,10 @@ Musical theater also holds a special place in my heart. Performing on stage has 
                 text={
                   <Fragment>
                     <span className="home-text34">
-                      <span>or skill level.</span>
                       <span>
                         We celebrate diversity and strive to create an inclusive
-                        envionment. Everyone is welcome, regardless of
-                        background 
+                        environment. Everyone is welcome, regardless of
+                        background or skill level. 
                       </span>
                       <br></br>
                       <br></br>
@@ -309,7 +308,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
                   </Fragment>
                 }
                 answer="You can easily register online through our website or by contacting us via phone, email or social media. \n"
-                question="What is pom cheerleading ?"
+                question="What are the musical theatre classes ?"
               ></Question1>
               <Question1
                 text={
