@@ -1,16 +1,32 @@
-/* src/components/google-reviews.css */
+/* src/components/google-review.css */
 .google-reviews-container {
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .google-reviews-heading {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .google-reviews-content {
-    display: flex;
-    justify-content: center;
-  }
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.google-reviews-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.google-reviews-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.google-reviews-link {
+  font-size: 18px;
+  color: #1a73e8;
+  text-decoration: none;
+  border: 1px solid #1a73e8;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.google-reviews-link:hover {
+  background-color: #1a73e8;
+  color: white;
+}
