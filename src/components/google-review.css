@@ -1,7 +1,7 @@
 /* src/components/google-review.css */
 .google-reviews-container {
+  margin-top: 10%;
   padding: 20px;
-  background-color: #f9f9f9;
   border-radius: 5px;
 }
 
