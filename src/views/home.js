@@ -303,7 +303,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
                     <span className="home-text51">
                       Our musical theatre classes cover acting, singing, and
                       dancing, focusing on performance skills, stage presence,
-                      adn character development.
+                      and character development.
                     </span>
                   </Fragment>
                 }
