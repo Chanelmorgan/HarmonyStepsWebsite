@@ -1,0 +1,16 @@
+/* src/components/google-reviews.css */
+.google-reviews-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .google-reviews-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .google-reviews-content {
+    display: flex;
+    justify-content: center;
+  }
