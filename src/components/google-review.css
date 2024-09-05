@@ -1,14 +1,17 @@
 /* src/components/google-review.css */
 .google-reviews-container {
-  margin-top: 10px;
+  margin: 0; /* Remove any default margins */
   padding: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically if the height is set */
+  justify-content: center; /* Center items vertically */
   text-align: center; /* Center text inside the container */
   background-color: #F1DDD9;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
 .google-reviews-heading {
