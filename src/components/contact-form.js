@@ -9,7 +9,7 @@ const ContactForm = (props) => {
     const formData = new FormData(event.target);
 
     try {
-      const response = await fetch('https://formspree.io/f/xblrbyzj', { // Replace with your Formspree endpoint
+      const response = await fetch('https://formspree.io/f/xblrbyzj', { // Replace with your Formspree form ID
         method: 'POST',
         body: formData,
         headers: {
