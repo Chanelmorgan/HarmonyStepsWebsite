@@ -1,12 +1,17 @@
 // src/components/GoogleReviews.js
 import React from 'react';
-import './google-review.css'
+import './google-review.css';
 
 const GoogleReviews = () => {
   return (
-    <div>
-      <h2>Leave Us a Google Review!</h2>
-      <a href="https://g.page/r/CTb5kuR2KWThEAE/review" target="_blank" rel="noopener noreferrer">
+    <div className="google-reviews-container">
+      <h2 className="google-reviews-heading">Leave Us a Google Review!</h2>
+      <a
+        href="https://g.page/r/CTb5kuR2KWThEAE/review"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="google-reviews-link"
+      >
         Leave a Review
       </a>
     </div>
