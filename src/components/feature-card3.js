@@ -19,7 +19,7 @@ const FeatureCard3 = (props) => {
 
 FeatureCard3.defaultProps = {
   subHeading:
-    'Passion drives us. We encourage our participates to bring energy and enthusiasm to every practice and performance. \n',
+    'we celebrate creativity as the heartbeat of our cheerleading dance.\n',
   heading: 'Creativity and Innovation',
   rootClassName: '',
 }

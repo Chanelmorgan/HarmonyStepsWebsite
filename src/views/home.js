@@ -146,8 +146,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
                 <span>
                   <span>
                     <span>
-                      Discover what sets us apart in the world of cheerleading
-                      dance
+                      Discover what sets us apart in the world of performing arts
                     </span>
                     <span>
                       <span

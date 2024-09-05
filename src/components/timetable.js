@@ -132,7 +132,7 @@ Timetable.defaultProps = {
   card3Action1: 'Register Now',
   card1Action1: 'Register Now',
   text1: undefined,
-  card2Heading: 'Sundays - 3:30-5:30pm',
+  card2Heading: 'Sundays - 3:30-5:00pm',
   date2: 'Musical Theatre ',
 }
 
