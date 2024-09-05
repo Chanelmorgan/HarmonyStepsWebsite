@@ -3,6 +3,12 @@
   margin-top: 10px;
   padding: 20px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically if the height is set */
+  text-align: center; /* Center text inside the container */
+  background-color: #F1DDD9;
 }
 
 .google-reviews-heading {
@@ -11,7 +17,8 @@
   font-weight: 400;
   font-style: uppercase;
   font-size: 38px;
-  color: rgb(55, 55, 126); 
+  color: rgb(55, 55, 126);
+  margin-bottom: 20px; /* Add some space below the heading */
 }
 
 .google-reviews-text {
@@ -20,17 +27,16 @@
 }
 
 .google-reviews-link {
-  text-align: center;
   font-size: 18px;
-  color: #F1DDD9;
+  color: #222684;
   text-decoration: none;
-  border: 1px solid #F1DDD9;
+  border: 1px solid #222684;
   border-radius: 5px;
   padding: 10px 15px;
   display: inline-block;
 }
 
 .google-reviews-link:hover {
-  background-color: #ffefec;
+  background-color: #222684;
   color: white;
 }

@@ -5,7 +5,7 @@ import './google-review.css';
 const GoogleReviews = () => {
   return (
     <div className="google-reviews-container">
-      <h2 className="google-reviews-heading">Leave Us a Google Review!</h2>
+      <h2 className="google-reviews-heading">LEAVE US A GOOGLE REVIEW!</h2>
       <a
         href="https://g.page/r/CTb5kuR2KWThEAE/review"
         target="_blank"
