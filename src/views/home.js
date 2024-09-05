@@ -10,6 +10,7 @@ import FeatureCard3 from '../components/feature-card3'
 import FeatureCard4 from '../components/feature-card4'
 import Question1 from '../components/question1'
 import Footer from '../components/footer'
+import GoogleReviews from '../components/google-review'; 
 import './home.css'
 
 const Home = (props) => {
@@ -329,6 +330,9 @@ Musical theater also holds a special place in my heart. Performing on stage has 
           </div>
         </div>
       </div>
+      <GoogleReviews />
+      <div>
+        </div>
       <div className="home-footer">
         <Footer
           logo="Harmony Steps "
