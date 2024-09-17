@@ -32,7 +32,7 @@ const Footer = (props) => {
       <div className="footer-container1">
         <span className="bodySmall footer-text">{props.text}</span>
         <div className="footer-icon-group">
-          <Link to="/coming-soon-page" className="footer-navlink">
+          <Link to="https://www.instagram.com/harmonystepsdance/" className="footer-navlink">
             <svg
               viewBox="0 0 877.7142857142857 1024"
               className="footer-icon socialIcons"
