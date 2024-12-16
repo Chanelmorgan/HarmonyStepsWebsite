@@ -17,6 +17,7 @@ import AboutPage from './views/about-page'
 import GalleryPage from './views/gallery-page'
 import NotFound from './views/not-found'
 
+
 const App = () => {
   return (
     <Router>

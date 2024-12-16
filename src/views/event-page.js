@@ -1,110 +1,57 @@
-import React, { Fragment } from 'react'
+// src/pages/EventPage.js
+import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 
-import { Helmet } from 'react-helmet'
+import Navbar from '../components/navbar2';  // Same Navbar as in About Page
+import EventBanner from '../components/event-banner'; // Create a component for the event banner
+import Features17 from '../components/features17'; // Reuse Features17 for event details
+import Reviews from '../components/reviews'; // Reuse Reviews section
+import Footer from '../components/footer'; // Reuse Footer section
+import './event-page.css';  // Add custom styles for event page
 
-import Navbar from '../components/navbar2'
-import EventsBanner from '../components/events-banner'
-import EventsFeature from '../components/events-feature'
-import Gallery3 from '../components/gallery3'
-import Footer from '../components/footer'
-import './event-page.css'
-
-const EventPage = (props) => {
+const EventPage = () => {
   return (
     <div className="event-page-container">
       <Helmet>
-        <title>EventPage - Harmony Steps</title>
-        <meta name="description" content="HarmonySteps" />
-        <meta property="og:title" content="EventPage - Harmony Steps " />
-        <meta property="og:description" content="HarmonySteps" />
+        <title>Event Page - Harmony Steps</title>
+        <meta name="description" content="Harmony Steps Event Page" />
+        <meta property="og:title" content="Event Page - Harmony Steps" />
+        <meta property="og:description" content="Join our exciting dance events!" />
       </Helmet>
-      <Navbar rootClassName="navbar-root-class-name5"></Navbar>
-      <EventsBanner rootClassName="events-banner-root-class-name"></EventsBanner>
-      <EventsFeature
-        slogan={
-          <Fragment>
-            <span className="event-page-text thq-body-small">Slogan</span>
-          </Fragment>
-        }
-        mainAction={
-          <Fragment>
-            <span className="event-page-text01 thq-body-small">
-              Main action
-            </span>
-          </Fragment>
-        }
-        sectionTitle={
-          <Fragment>
-            <h2 className="event-page-text02 thq-heading-2">Key Features</h2>
-          </Fragment>
-        }
+
+      <Navbar text3="Event" rootClassName="navbar-root-class-name4" />
+
+      {/* Event Banner (You can create a custom banner component for event) */}
+      <EventBanner rootClassName="event-banner-root-class-name" />
+
+      {/* Event Details using Features17 component */}
+      <Features17
         feature1Title={
           <Fragment>
-            <h3 className="event-page-text03 thq-heading-3">
-              Musical Theatre Classes
-            </h3>
+            <h2 className="event-page-text thq-heading-2">Annual Dance Showcase</h2>
           </Fragment>
         }
-        feature2Title={
+        rootClassName="features17-root-class-name"
+        feature1Description={
           <Fragment>
-            <h3 className="event-page-text04 thq-heading-3">
-              Pom Cheerleading Program
-            </h3>
-          </Fragment>
-        }
-        feature3Title={
-          <Fragment>
-            <h3 className="event-page-text05 thq-heading-3">
-              Private Coaching Sessions
-            </h3>
-          </Fragment>
-        }
-        rootClassName="events-feature-root-class-name"
-        secondaryAction={
-          <Fragment>
-            <span className="event-page-text06 thq-body-small">
-              Secondary action
-            </span>
-          </Fragment>
-        }
-        sectionDescription={
-          <Fragment>
-            <p className="event-page-text07 thq-body-large">
-              Discover the key features that set Harmony Steps apart from other
-              performing arts schools.
+            <p className="event-page-text1 thq-body-large">
+              Join us for an unforgettable night of dance performances showcasing the talents of our students. The event features a variety of dance styles, including ballet, jazz, contemporary, and hip hop.
+            </p>
+            <p className="event-page-text1 thq-body-large">
+              Date: January 25, 2025 <br />
+              Time: 7:00 PM <br />
+              Location: Harmony Steps Dance Studio, London
             </p>
           </Fragment>
         }
-        feature1Description={
-          <Fragment>
-            <span className="event-page-text08 thq-body-small">
-              Engage in dynamic musical theatre classes that blend acting,
-              singing, and dancing to enhance your performance skills.
-            </span>
-          </Fragment>
-        }
-        feature2Description={
-          <Fragment>
-            <span className="event-page-text09 thq-body-small">
-              Join our pom cheerleading program to learn high-energy routines
-              and develop teamwork and precision in your movements.
-            </span>
-          </Fragment>
-        }
-        feature3Description={
-          <Fragment>
-            <span className="event-page-text10 thq-body-small">
-              Benefit from personalized private coaching sessions tailored to
-              your specific needs and goals to excel in your performance
-              journey.
-            </span>
-          </Fragment>
-        }
-      ></EventsFeature>
-      <Gallery3></Gallery3>
-      <Footer rootClassName="footer-root-class-name2"></Footer>
-    </div>
-  )
-}
+      />
 
-export default EventPage
+      {/* Optional: Reviews Section */}
+      <Reviews />
+
+      <Footer rootClassName="footer-root-class-name4" />
+    </div>
+  );
+};
+
+export default EventPage;

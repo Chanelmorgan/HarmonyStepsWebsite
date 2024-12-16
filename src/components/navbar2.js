@@ -152,7 +152,7 @@ const Navbar2 = (props) => {
     // URLs updated to match the routes in App.js
     link1Url: '/about-page', // About
     link2Url: '/classes-page', // Classes
-    link3Url: '/coming-soon-page', // Events (coming soon)
+    link3Url: '/event-page', // Events (coming soon)
     link5Url: '/contact-page', // Contact
     link4Url: '/gallery-page', // Gallery 
   };

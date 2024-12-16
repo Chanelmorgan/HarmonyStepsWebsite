@@ -1,0 +1,20 @@
+/* src/components/event-banner.css */
+.event-banner {
+    background-image: url('/images/event-banner.jpg'); /* Your event banner image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .event-banner-title {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .event-banner-subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+  }
