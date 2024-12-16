@@ -34,6 +34,13 @@ const MerchPage = () => {
           <p className="merch-item-price">£25.00</p>
           <button className="add-to-cart-button">Add to Cart</button>
         </div>
+        <div className="merch-item">
+          <img src="/placeholder.jpg" alt="Merchandise T-Shirt" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps T-Shirt</h3>
+          <p className="merch-item-description">Comfortable and stylish t-shirt featuring the Harmony Steps logo.</p>
+          <p className="merch-item-price">£25.00</p>
+          <button className="add-to-cart-button">Add to Cart</button>
+        </div>
 
         <div className="merch-item">
           <img src="/placeholder.jpg" alt="Merchandise Hoodie" className="merch-item-image" />

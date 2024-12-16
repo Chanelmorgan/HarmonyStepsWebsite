@@ -6,7 +6,6 @@
   min-height: 100vh;
   align-items: center;  /* Center the content horizontally */
   justify-content: flex-start;
-  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -99,12 +98,12 @@
 .merch-item-price {
   font-size: 1.6rem; /* Bigger price font size */
   font-weight: bold;
-  color: #4CAF50;
+  color: var(--dl-color-custom-secondary1);
   margin-top: 10px;
 }
 
 .add-to-cart-button {
-  background-color: #4CAF50;
+  background-color: #f0cec7;
   color: white;
   padding: 14px 30px; /* Larger button */
   border: none;
@@ -117,7 +116,7 @@
 }
 
 .add-to-cart-button:hover {
-  background-color: #45a049;
+  background-color: #F1DDD9;
   transform: scale(1.05); /* Slight zoom effect */
 }
 
