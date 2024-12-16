@@ -16,7 +16,9 @@ const Footer = (props) => {
           <Link to="/classes-page" className="footer-nav12 bodySmall">
             {props.nav12}
           </Link>
-          
+          <Link to="/merch-page" className="footer-nav32 bodySmall">
+            {props.nav55}
+          </Link>
           <Link to="/coming-soon-page" className="footer-nav32 bodySmall">
             {props.nav32}
           </Link>
@@ -72,6 +74,7 @@ Footer.defaultProps = {
   nav42: 'Gallery',
   nav12: 'Classes',
   nav52: 'Contact',
+  nav55: 'Merch',
   nav32: 'Events',
   text: '© 2024 Harmony Steps,  developed by Chanel Morgan.',
   logo: 'Harmony Steps ',
@@ -84,6 +87,7 @@ Footer.propTypes = {
   nav42: PropTypes.string,
   nav12: PropTypes.string,
   nav52: PropTypes.string,
+  nav55: PropTypes.string,
   nav32: PropTypes.string,
   text: PropTypes.string,
   logo: PropTypes.string,

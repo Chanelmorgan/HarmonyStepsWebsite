@@ -36,6 +36,15 @@ const Navbar2 = (props) => {
                 </Fragment>
               )}
             </Link>
+            <Link to={props.link6Url}>
+                {props.link6 ?? (
+                  <Fragment>
+                    <span className="navbar2-text thq-link thq-body-small">
+                      Merch
+                    </span>
+                  </Fragment>
+                )}
+              </Link>
             <Link to={props.link4Url} className="navbar2-link4">
               {props.link4 ?? (
                 <Fragment>
@@ -45,7 +54,7 @@ const Navbar2 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to={props.link5Url} className="navbar2-link5">
+            <Link to={props.link6Url} className="navbar2-link5">
               {props.link5 ?? (
                 <Fragment>
                   <span className="navbar2-text3 thq-link thq-body-small">
@@ -93,6 +102,15 @@ const Navbar2 = (props) => {
                   <Fragment>
                     <span className="navbar2-text thq-link thq-body-small">
                       Events
+                    </span>
+                  </Fragment>
+                )}
+              </Link>
+              <Link to={props.link6Url}>
+                {props.link6 ?? (
+                  <Fragment>
+                    <span className="navbar2-text thq-link thq-body-small">
+                      Merch
                     </span>
                   </Fragment>
                 )}
@@ -155,6 +173,7 @@ const Navbar2 = (props) => {
     link3Url: '/event-page', // Events (coming soon)
     link5Url: '/contact-page', // Contact
     link4Url: '/gallery-page', // Gallery 
+    link6Url: '/merch-page', // Merch
   };
 
    Navbar2.propTypes = {
@@ -170,6 +189,8 @@ const Navbar2 = (props) => {
      logoSrc: PropTypes.string,
      link1: PropTypes.element,
      link4Url: PropTypes.string,
+     link1: PropTypes.element,
+     link6Url: PropTypes.string,
    };
 
    export default Navbar2;

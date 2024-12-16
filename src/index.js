@@ -15,6 +15,7 @@ import Home from './views/home'
 import ComingSoonPage from './views/coming-soon-page'
 import AboutPage from './views/about-page'
 import GalleryPage from './views/gallery-page'
+import MerchPage from './views/merch-page'
 import NotFound from './views/not-found'
 
 
@@ -28,7 +29,8 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={ComingSoonPage} exact path="/coming-soon-page" />
         <Route component={AboutPage} exact path="/about-page" />
-        <Route component={GalleryPage} exact path="/gallery-page" />
+        <Route component={GalleryPage} exact path="/gallery-page" /> 
+        <Route component={MerchPage} exact path="/merch-page" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
