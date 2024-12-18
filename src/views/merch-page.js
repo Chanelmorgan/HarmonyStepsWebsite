@@ -52,7 +52,7 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/zip.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Zip-up Team Hoodie</h3>
-          <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
+          <p className="merch-item-description">Stay warm and stylish with this cozy zip-up hoodie featuring the Harmony Steps design.</p>
           <p className="merch-item-price">£35.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Zip-up Team Hoodie.`} className="add-to-cart-button">Order Here</a>
@@ -61,7 +61,7 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/test-2.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Leggings</h3>
-          <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
+          <p className="merch-item-description">Perfect for dance practice, workouts, or casual wear!</p>
           <p className="merch-item-price">£20.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Leggings.`} className="add-to-cart-button">Order Here</a>
@@ -70,16 +70,16 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/mum-hood.jpg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Dance Mum/Dad Hoodie</h3>
-          <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
+          <p className="merch-item-description">This hoodie is perfect for all Dance Mums and Dads!</p>
           <p className="merch-item-price">£35.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Dance Mum/Dad Hoodie.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
-          <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/stickers.jpg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Sticker Pack</h3>
-          <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
+          <p className="merch-item-description">Show off your Harmony Steps spirit with this fun sticker pack! </p>
           <p className="merch-item-price">£5.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker Pack.`} className="add-to-cart-button">Order Here</a>
