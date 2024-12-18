@@ -1,33 +1,188 @@
-/* src/pages/event-page.css */
+/* General styles */
 .event-page-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  align-items: flex-start;
+  align-items: center; /* Center the content horizontally */
   justify-content: flex-start;
+  box-sizing: border-box;
 }
 
-.event-page-text {
+/* Event Banner */
+.event-banner-root-class-name {
+  margin-bottom: 30px;
+}
+
+/* Event Grid Section */
+.events-section {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 events per row by default */
+  gap: 30px;
+  width: 100%;
+  max-width: 1400px; /* Limit max width for larger screens */
+  margin: 40px 0;
+  justify-items: center; /* Center the items */
+}
+
+.event-item {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 350px; /* Max width for each event */
+}
+
+.event-item:hover {
+  transform: translateY(-5px); /* Hover effect */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Event Image */
+.event-image-container {
+  width: 100%;
+  height: 250px; /* Increased height */
+  overflow: hidden;
+}
+
+.event-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.event-item:hover .event-image {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Event Title */
+.event-title {
+  font-size: 1.8rem; /* Larger title size */
+  font-weight: 600;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Event Date & Time */
+.event-date-time {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.event-date,
+.event-time {
   display: inline-block;
-  line-height: auto;
+  margin-right: 1rem;
 }
 
-.event-page-text1 {
-  display: inline-block;
-  color: var(--dl-color-custom-primary1);
+/* Event Location */
+.event-location {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #444;
 }
 
-@media (max-width: 1200px) {
-  .event-page-text1 {
-    width: 376px;
-    height: auto;
+/* Event Description */
+.event-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+/* Buy Tickets Button */
+.buy-tickets-button {
+  background-color: #007bff;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buy-tickets-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.buy-tickets-button:active {
+  transform: scale(0.98); /* Click effect */
+}
+
+/* Responsive Breakpoints */
+
+/* Tablet to Small Desktop */
+@media (max-width: 1024px) {
+  .events-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 events per row on tablets and smaller screens */
+  }
+
+  .event-item {
+    padding: 20px;
+  }
+
+  .event-title {
+    font-size: 1.7rem;
+  }
+
+  .event-description {
+    font-size: 1.1rem;
+  }
+
+  .event-location {
+    font-size: 1.1rem;
+  }
+
+  .buy-tickets-button {
+    font-size: 1.1rem;
+    padding: 12px 25px;
   }
 }
 
+/* Mobile */
 @media (max-width: 767px) {
-  .event-page-text {
-    width: 307px;
-    height: auto;
+  .events-container {
+    grid-template-columns: 1fr; /* 1 event per row on mobile */
+    gap: 20px;
+  }
+
+  .event-item {
+    padding: 15px;
+  }
+
+  .event-title {
+    font-size: 1.6rem;
+  }
+
+  .event-description {
+    font-size: 1rem;
+  }
+
+  .event-location {
+    font-size: 1rem;
+  }
+
+  .buy-tickets-button {
+    font-size: 1.1rem;
+    padding: 12px 22px;
   }
 }
