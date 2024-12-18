@@ -10,6 +10,7 @@ import Footer from '../components/footer'; // Reuse Footer section
 import './merch-page.css';  // Add custom styles for the merchandise page
 
 const MerchPage = () => {
+    
   return (
     <div className="merch-page-container">
       <Helmet>
@@ -32,31 +33,46 @@ const MerchPage = () => {
           <h3 className="merch-item-title">Harmony Steps T-Shirt</h3>
           <p className="merch-item-description">Comfortable and stylish t-shirt featuring the Harmony Steps logo.</p>
           <p className="merch-item-price">£25.00</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          <button className="add-to-cart-button">Order Here</button>
         </div>
         <div className="merch-item">
           <img src="/placeholder.jpg" alt="Merchandise T-Shirt" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps T-Shirt</h3>
-          <p className="merch-item-description">Comfortable and stylish t-shirt featuring the Harmony Steps logo.</p>
-          <p className="merch-item-price">£25.00</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          <h3 className="merch-item-title">Harmony Steps Hoodie</h3>
+          <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
+          <p className="merch-item-price">£35.00</p>
+          <button className="add-to-cart-button">Order Here</button>
         </div>
 
         <div className="merch-item">
           <img src="/placeholder.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Hoodie</h3>
+          <h3 className="merch-item-title">Harmony Steps Zip-up Team Hoodie</h3>
           <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
-          <p className="merch-item-price">£40.00</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          <p className="merch-item-price">£35.00</p>
+          <button className="add-to-cart-button">Order Here</button>
         </div>
 
         <div className="merch-item">
           <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Mug</h3>
+          <h3 className="merch-item-title">Harmony Steps Leggings</h3>
           <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
-          <p className="merch-item-price">£15.00</p>
+          <p className="merch-item-price">£20.00</p>
+          <button className="add-to-cart-button">Order Here</button>
+        </div>
+        <div className="merch-item">
+          <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Dance Mum/Dad Hoodie</h3>
+          <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
+          <p className="merch-item-price">£35.00</p>
           <button className="add-to-cart-button">Add to Cart</button>
         </div>
+        <div className="merch-item">
+          <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Sticker Pack</h3>
+          <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
+          <p className="merch-item-price">£5.00</p>
+          <button className="add-to-cart-button">Order Here</button>
+        </div>
+
       </section>
 
 
