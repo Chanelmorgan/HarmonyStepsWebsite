@@ -34,19 +34,19 @@ const ClassesPage = (props) => {
         text={
           <Fragment>
             <span className="classes-page-text thq-body-small">
-              <span>KC Conqueror hall, Harold Drive, Eastbourne</span>
+              <span>Tutts Barn Ln, Eastbourne </span>
               <br />
               <br />
-              <span>BN23 6TH</span>
+              <span>BN22 8XP</span>
             </span>
           </Fragment>
         }
         text1={
           <Fragment>
             <span className="classes-page-text05 thq-body-small">
-              <span>KC Conqueror hall, Harold Drive, Eastbourne</span>
+              <span>Tutts Barn Ln, Eastbourne </span>
               <br />
-              <span>BN23 6TH</span>
+              <span>BN22 8XP</span>
               <br />
             </span>
           </Fragment>
