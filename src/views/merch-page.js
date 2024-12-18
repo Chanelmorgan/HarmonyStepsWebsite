@@ -1,5 +1,4 @@
-// src/pages/MerchPage.js
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import Navbar from '../components/navbar2';  // Same Navbar as in About and Event Pages
@@ -10,7 +9,11 @@ import Footer from '../components/footer'; // Reuse Footer section
 import './merch-page.css';  // Add custom styles for the merchandise page
 
 const MerchPage = () => {
-    
+
+  // Email settings
+  const emailRecipient = "harmonystepsdance@gmail.com"; // Replace with your actual email address
+  const emailSubject = "Order Request - Harmony Steps Merchandise";
+
   return (
     <div className="merch-page-container">
       <Helmet>
@@ -29,18 +32,21 @@ const MerchPage = () => {
       <section className="merch-items">
         {/* Example of a Merchandise Item */}
         <div className="merch-item">
-          <img src="/placeholder.jpg" alt="Merchandise T-Shirt" className="merch-item-image" />
+          <img src="/t-shirt.jpg" alt="Merchandise T-Shirt" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps T-Shirt</h3>
           <p className="merch-item-description">Comfortable and stylish t-shirt featuring the Harmony Steps logo.</p>
           <p className="merch-item-price">£25.00</p>
-          <button className="add-to-cart-button">Order Here</button>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps T-Shirt.`} className="add-to-cart-button">Order Here</a>
         </div>
+        
         <div className="merch-item">
-          <img src="/placeholder.jpg" alt="Merchandise T-Shirt" className="merch-item-image" />
+          <img src="/hood.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Hoodie</h3>
           <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
           <p className="merch-item-price">£35.00</p>
-          <button className="add-to-cart-button">Order Here</button>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Hoodie.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -48,33 +54,38 @@ const MerchPage = () => {
           <h3 className="merch-item-title">Harmony Steps Zip-up Team Hoodie</h3>
           <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
           <p className="merch-item-price">£35.00</p>
-          <button className="add-to-cart-button">Order Here</button>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Zip-up Team Hoodie.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
-          <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/test-2.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Leggings</h3>
           <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
           <p className="merch-item-price">£20.00</p>
-          <button className="add-to-cart-button">Order Here</button>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Leggings.`} className="add-to-cart-button">Order Here</a>
         </div>
+
         <div className="merch-item">
-          <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/mum-hood.jpg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Dance Mum/Dad Hoodie</h3>
           <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
           <p className="merch-item-price">£35.00</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Dance Mum/Dad Hoodie.`} className="add-to-cart-button">Order Here</a>
         </div>
+
         <div className="merch-item">
           <img src="/placeholder.jpg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Sticker Pack</h3>
           <p className="merch-item-description">Perfect for your morning coffee or tea, featuring the Harmony Steps logo.</p>
           <p className="merch-item-price">£5.00</p>
-          <button className="add-to-cart-button">Order Here</button>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker Pack.`} className="add-to-cart-button">Order Here</a>
         </div>
 
       </section>
-
 
       <Footer rootClassName="footer-root-class-name4" />
     </div>
