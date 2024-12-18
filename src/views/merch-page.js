@@ -68,7 +68,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/mum-hood.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/mum-hood.JPG" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Dance Mum/Dad Hoodie</h3>
           <p className="merch-item-description">This hoodie is perfect for all Dance Mums and Dads!</p>
           <p className="merch-item-price">£35.00</p>
@@ -77,7 +77,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/stickers.jpg" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/stickers.JPG" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Sticker Pack</h3>
           <p className="merch-item-description">Show off your Harmony Steps spirit with this fun sticker pack! </p>
           <p className="merch-item-price">£5.00</p>
