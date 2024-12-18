@@ -50,7 +50,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/placeholder.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
+          <img src="/zip.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Zip-up Team Hoodie</h3>
           <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
           <p className="merch-item-price">£35.00</p>
