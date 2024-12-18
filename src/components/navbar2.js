@@ -54,7 +54,7 @@ const Navbar2 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to={props.link6Url} className="navbar2-link5">
+            <Link to={props.link5Url} className="navbar2-link5">
               {props.link5 ?? (
                 <Fragment>
                   <span className="navbar2-text3 thq-link thq-body-small">
