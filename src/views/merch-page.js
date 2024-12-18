@@ -32,7 +32,7 @@ const MerchPage = () => {
       <section className="merch-items">
         {/* Example of a Merchandise Item */}
         <div className="merch-item">
-          <img src="/t-shirt.jpg" alt="Merchandise T-Shirt" className="merch-item-image" />
+          <img src="/t-shirt.JPG" alt="Merchandise T-Shirt" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps T-Shirt</h3>
           <p className="merch-item-description">Comfortable and stylish t-shirt featuring the Harmony Steps logo.</p>
           <p className="merch-item-price">£25.00</p>
@@ -41,7 +41,7 @@ const MerchPage = () => {
         </div>
         
         <div className="merch-item">
-          <img src="/hood.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
+          <img src="/hood.JPG" alt="Merchandise Hoodie" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Hoodie</h3>
           <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
           <p className="merch-item-price">£35.00</p>
@@ -50,7 +50,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/zip.jpg" alt="Merchandise Hoodie" className="merch-item-image" />
+          <img src="/zip.JPG" alt="Merchandise Hoodie" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Zip-up Team Hoodie</h3>
           <p className="merch-item-description">Stay warm and stylish with this cozy zip-up hoodie featuring the Harmony Steps design.</p>
           <p className="merch-item-price">£35.00</p>
