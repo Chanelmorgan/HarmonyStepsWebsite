@@ -8,6 +8,12 @@
   flex-direction: column;
   background-color: var(--dl-color-custom-neutral-light);
 }
+
+.musical-theare-info-image-container img {
+  width: 100%; /* Make sure this is not forcing the image out of view */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure image fits within the container */
+}
 .musical-theare-info-max-width {
   gap: var(--dl-space-space-fiveunits);
   display: flex;

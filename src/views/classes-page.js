@@ -1,12 +1,13 @@
-import React, { Fragment } from 'react'
-import { Helmet } from 'react-helmet'
-import Navbar from '../components/navbar2'
-import PomInfo from '../components/pom-info'
-import MusicalTheareInfo from '../components/musical-theare-info'
-import PrivateClassInfo from '../components/private-class-info'
-import Timetable from '../components/timetable'
-import Footer from '../components/footer'
-import './classes-page.css'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Navbar from '../components/navbar2';
+import PomInfo from '../components/pom-info';
+import MusicalTheareInfo from '../components/musical-theare-info';
+import PrivateClassInfo from '../components/private-class-info';
+import Timetable from '../components/timetable';
+import Footer from '../components/footer';
+import ClassBanner from '../components/NEW-classes-banner';
+import './classes-page.css';
 
 const ClassesPage = (props) => {
   return (
@@ -14,49 +15,54 @@ const ClassesPage = (props) => {
       <Helmet>
         <title>ClassesPage - Harmony Steps</title>
         <meta name="description" content="HarmonySteps" />
-        <meta property="og:title" content="ClassesPage - Harmony Steps " />
+        <meta property="og:title" content="ClassesPage - Harmony Steps" />
         <meta property="og:description" content="HarmonySteps" />
       </Helmet>
+
       <Navbar rootClassName="navbar-root-class-name3" />
-      <PomInfo
-        rootClassName="pom-info-root-class-name"
-        feature1ImageSrc="/cheerleading-1400w.webp"
-      />
-      <MusicalTheareInfo
-        feature1ImageSrc="/mt2-1400w.webp"
-        feature1Description="Our musical theatre classes combine acting, singing and dancing to tell stories through music and performance."
-      />
-      <PrivateClassInfo
-        feature1Title="Private Classes"
-        feature1ImageSrc="/studio2-1400w.webp"
-      />
+      <ClassBanner rootClassName="event-banner-root-class-name" />
+
+      <div className="classes-section">
+        <div className="class-item">
+          <PomInfo
+            rootClassName="pom-info-root-class-name"
+            feature1ImageSrc="/pompom.png" // Make sure this path is correct
+          />
+        </div>
+
+        <div className="class-item">
+          <MusicalTheareInfo
+            feature1ImageSrc="/mt2-1400w.webp" // Correct path to image
+            feature1Description="Our musical theatre classes combine acting, singing and dancing to tell stories through music and performance."
+          />
+        </div>
+
+        <div className="class-item">
+          <PrivateClassInfo
+            feature1Title="Private Classes"
+            feature1ImageSrc="/studio2-1400w.webp" // Make sure this path is correct
+          />
+        </div>
+      </div>
+
       <Timetable
         text={
-          <Fragment>
-            <span className="classes-page-text thq-body-small">
-              <span>Tutts Barn Ln, Eastbourne </span>
-              <br />
-              <br />
-              <span>BN22 8XP</span>
-            </span>
-          </Fragment>
+          <span className="classes-page-text thq-body-small">
+            Tutts Barn Ln, Eastbourne <br />BN22 8XP
+          </span>
         }
         text1={
-          <Fragment>
-            <span className="classes-page-text05 thq-body-small">
-              <span>Tutts Barn Ln, Eastbourne </span>
-              <br />
-              <span>BN22 8XP</span>
-              <br />
-            </span>
-          </Fragment>
+          <span className="classes-page-text05 thq-body-small">
+            Tutts Barn Ln, Eastbourne <br />BN22 8XP
+          </span>
         }
-        content1="Our classes are conveniently scheduled, with flexible days and times for private sessions to accommodate busy lifestyles, ensuring everyone can find a perfect fit for their children’s training and development."
+        content1="Our classes are conveniently scheduled, with flexible days and times for private sessions to accommodate busy lifestyles."
         rootClassName="timetable-root-class-name"
       />
+
       <Footer rootClassName="footer-root-class-name3" />
     </div>
-  )
-}
+  );
+};
 
-export default ClassesPage
+export default ClassesPage;

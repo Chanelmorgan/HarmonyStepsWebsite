@@ -1,5 +1,3 @@
-/* timetable.css */
-
 /* General Styles */
 .timetable-container {
   padding: 20px;
@@ -60,6 +58,17 @@
   font-weight: bold;
 }
 
+/* Centering the Button Containers */
+.timetable-container05,
+.timetable-container09,
+.timetable-container13 {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center; /* Centers the button vertically if needed */
+  margin-top: 20px; /* Adds some space above the button */
+}
+
+/* Button Styles */
 .timetable-navlink {
   display: block;
   padding: 10px 20px;
