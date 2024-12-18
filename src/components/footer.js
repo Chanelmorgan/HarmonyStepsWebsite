@@ -16,12 +16,13 @@ const Footer = (props) => {
           <Link to="/classes-page" className="footer-nav12 bodySmall">
             {props.nav12}
           </Link>
+          <Link to="/event-page" className="footer-nav32 bodySmall">
+            {props.nav32}
+          </Link>
           <Link to="/merch-page" className="footer-nav32 bodySmall">
             {props.nav55}
           </Link>
-          <Link to="/coming-soon-page" className="footer-nav32 bodySmall">
-            {props.nav32}
-          </Link>
+        
           <Link to="/gallery-page" className="footer-nav42 bodySmall">
             {props.nav42}
           </Link>
