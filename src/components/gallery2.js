@@ -42,7 +42,7 @@ const Gallery2 = (props) => {
 Gallery2.defaultProps = {
   image1Alt: 'Cheerleading Dance Competition',
   image4Src: '/bbf0d3f2-1743-49ed-8b29-8b6bc8b8635a-1500w.jpg',
-  image1Src: '/a769b26a-7a03-40bf-b1ee-fb85ca82c717-1500w.jpg',
+  image1Src: '/IMG_0390.JPG',
   image4Alt: 'Cheerleading Choreography Workshop',
   image6Alt: 'Cheerleading Dance Recital',
   image6Src: '/0a498656-76ad-4e6b-862f-d5533d04a9f3-1500w.jpg',

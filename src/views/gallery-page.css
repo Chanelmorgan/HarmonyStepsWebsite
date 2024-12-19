@@ -1,8 +1,91 @@
+/* General Layout Styles */
 .gallery-page-container {
+  background-color: #fff;
+  
+  font-family: 'Arial', sans-serif;
+}
+
+.gallery-page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery-page-header h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #23297F;
+}
+
+.gallery-page-header p {
+  font-size: 1.2em;
+  color: #23297F;
+}
+
+/* Gallery Grid Layout */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensuring all images have the same size */
+.gallery-image {
   width: 100%;
-  display: flex;
-  min-height: 100vh;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
+  height: 250px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures images cover the space without distortion */
+  border-radius: 8px;
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .gallery-page-header h1 {
+    font-size: 2.5em;
+  }
+
+  .gallery-page-header p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-page-header h1 {
+    font-size: 2em;
+  }
+
+  .gallery-page-header p {
+    font-size: 1em;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-page-header h1 {
+    font-size: 1.8em;
+  }
+
+  .gallery-page-header p {
+    font-size: 0.9em;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
 }

@@ -60,7 +60,7 @@ Gallery1.defaultProps = {
   image4Alt: 'Cheerleading jumps and leaps',
   image7Src: '/62cbcb29-c9d9-4f2c-8ceb-a783e5c0eec1-1500w.jpg',
   image2Alt: 'Cheerleading stunts',
-  image3Src: '/94c0da94-ddfd-4541-a536-297dd9c35c25-1500w.jpg',
+  image3Src: '/IMG_0403.JPG',
   image7Alt: 'Cheerleading spirit and energy',
   image1Alt: 'Cheerleading dance performance',
   image6Alt: 'Cheerleading team formations',

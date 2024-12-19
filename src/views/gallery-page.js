@@ -1,41 +1,61 @@
-import React from 'react'
-
-import { Helmet } from 'react-helmet'
-
-import Navbar from '../components/navbar2'
-import GalleryBanner from '../components/gallery-banner'
-import Gallery1 from '../components/gallery1'
-import Gallery2 from '../components/gallery2'
-import Footer from '../components/footer'
-import './gallery-page.css'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Navbar from '../components/navbar2';
+import Footer from '../components/footer';
+import './gallery-page.css';
 
 const GalleryPage = (props) => {
+  const images = [
+    { src: '/IMG_0390.JPG', alt: 'Image 1' },
+    { src: '/IMG_0403.JPG', alt: 'Image 2' },
+    { src: '/IMG_0402.JPG', alt: 'Image 3' },
+    { src: '/IMG_0401.JPG', alt: 'Image 4' },
+    { src: '/IMG_0400.JPG', alt: 'Image 5' },
+    { src: '/IMG_0399.JPG', alt: 'Image 6' },
+    { src: '/IMG_0398.JPG', alt: 'Image 7' },
+    { src: '/IMG_0397.JPG', alt: 'Image 8' },
+    { src: '/IMG_0396.JPG', alt: 'Image 9' },
+    { src: '/IMG_0395.JPG', alt: 'Image 10' },
+    { src: '/IMG_0393.JPG', alt: 'Image 11' },
+    { src: '/IMG_0390.JPG', alt: 'Image 12' }, 
+    { src: '/bbf0d3f2-1743-49ed-8b29-8b6bc8b8635a-1500w.jpg', alt: 'Image 13' }, 
+    { src: '/2209e84d-a845-4f6b-871d-aec16fbed8fc-1500w.jpg', alt: 'Image 14' }, 
+    { src: '/468a92ef-3fe8-4bd0-90fa-60332fd5cca4-1500w.jpg', alt: 'Image 15' }, 
+    { src: '/62cbcb29-c9d9-4f2c-8ceb-a783e5c0eec1-1500w.jpg', alt: 'Image 16' },
+    { src: '/34f243ad-df9d-4bf1-a485-f33a5e09273b-1500w.jpg', alt: 'Image 17' }, 
+    { src: '/31cb33ed-0712-40b2-a01b-aea3ee7b091c-1500w.jpg', alt: 'Image 18' },
+    { src: '/0a498656-76ad-4e6b-862f-d5533d04a9f3-1500w.jpg', alt: 'Image 19' },
+    { src: '/image.png', alt: 'Image 19' },
+    
+  
+  ];
+
   return (
     <div className="gallery-page-container">
       <Helmet>
         <title>GalleryPage - Harmony Steps</title>
-        <meta name="description" content="HarmonySteps" />
+        <meta name="description" content="HarmonySteps Gallery" />
         <meta property="og:title" content="GalleryPage - Harmony Steps " />
-        <meta property="og:description" content="HarmonySteps" />
+        <meta property="og:description" content="HarmonySteps Gallery" />
       </Helmet>
-      <Navbar rootClassName="navbar-root-class-name1"></Navbar>
-      {/* <GalleryBanner
-        action1="Explore Classes"
-        rootClassName="gallery-banner-root-class-name"
-      ></GalleryBanner> */} 
+      <Navbar rootClassName="navbar-root-class-name1" />
       
-      <Gallery1
-        image1Src="/43b0757c-704c-4ded-aa8f-39521eb5e168-1500w.jpg"
-        image2Src="/31cb33ed-0712-40b2-a01b-aea3ee7b091c-1500w.jpg"
-        image4Src="/2209e84d-a845-4f6b-871d-aec16fbed8fc-1500w.jpg"
-      ></Gallery1>
-      <Gallery2></Gallery2>
-      <Footer
-        logo="Harmony Steps Dance"
-        rootClassName="footer-root-class-name"
-      ></Footer>
-    </div>
-  )
-}
+      <div className="gallery-page-header">
+        <h1>Our Gallery</h1>
+        <p>Explore the highlights from our events, performances, and more.</p>
+      </div>
 
-export default GalleryPage
+      <div className="gallery-container">
+        {images.map((image, index) => (
+          <div className="gallery-item" key={index}>
+            <img src={image.src} alt={image.alt} className="gallery-image" />
+          </div>
+        ))}
+      </div>
+
+      <Footer logo="Harmony Steps Dance" rootClassName="footer-root-class-name" />
+    </div>
+  );
+};
+
+export default GalleryPage;
