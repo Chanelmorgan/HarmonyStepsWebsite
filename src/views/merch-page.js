@@ -39,15 +39,6 @@ const MerchPage = () => {
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps T-Shirt.`} className="add-to-cart-button">Order Here</a>
         </div>
-        
-        <div className="merch-item">
-          <img src="/hood.JPG" alt="Merchandise Hoodie" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Hoodie</h3>
-          <p className="merch-item-description">Stay warm and stylish with this cozy hoodie featuring the Harmony Steps design.</p>
-          <p className="merch-item-price">£35.00</p>
-          {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Hoodie.`} className="add-to-cart-button">Order Here</a>
-        </div>
 
         <div className="merch-item">
           <img src="/zip.JPG" alt="Merchandise Hoodie" className="merch-item-image" />
