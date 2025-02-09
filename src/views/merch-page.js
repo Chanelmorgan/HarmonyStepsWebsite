@@ -78,7 +78,7 @@ const MerchPage = () => {
 
 
         <div className="merch-item">
-          <img src="/stickers.JPG" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/bows.jpeg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Bows</h3>
           <p className="merch-item-description">Add a cute and stylish touch to your outfit with the Harmony Steps Bow! Whether you’re attending an event or just showing off your spirit, this bow is the perfect accessory to complete your look.</p>
           <p className="merch-item-price">£7.00</p>
@@ -106,9 +106,9 @@ const MerchPage = () => {
 
         <div className="merch-item">
           <img src="/stickers.JPG" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Water Bottle</h3>
-          <p className="merch-item-description"> Stay hydrated and refreshed during rehearsals with our HSDC Water Bottle! </p>
-          <p className="merch-item-price">£10.00</p>
+          <h3 className="merch-item-title">Harmony Steps Costume Bag</h3>
+          <p className="merch-item-description">Keep your costume organized and ready to go with the Harmony Steps Costume Bag!</p>
+          <p className="merch-item-price">£15.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker Water Bottle.`} className="add-to-cart-button">Order Here</a>
         </div>
