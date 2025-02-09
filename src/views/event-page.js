@@ -18,9 +18,9 @@ const EventPage = () => {
     },
     {
       title: "So You Want To Dance",
-      date: "June 10, 2025",
+      date: "May 31 - June 1, 2025",
       time: "9:00 AM",
-      location: "The Roedean, Brighton",
+      location: "Havant theatre, Portsmouth",
       description: "Get ready to move to the rhythm at So You Want To Dance—an exciting day of dance, music, and celebration. Whether you’re a seasoned dancer or a first-timer, this event promises fun for all. Enjoy live performances from world-class dancers and musicians, join in interactive workshops, and experience the joy of dance in a vibrant, community-filled atmosphere. Proceeds go to charity, so you’ll be dancing for a great cause!",
       image: "/Comp2.png",
       link: "https://soyouwanttodance.uk/"  // Link for the event
