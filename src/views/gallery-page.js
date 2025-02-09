@@ -26,6 +26,22 @@ const GalleryPage = (props) => {
     { src: '/31cb33ed-0712-40b2-a01b-aea3ee7b091c-1500w.jpg', alt: 'Image 18' },
     { src: '/0a498656-76ad-4e6b-862f-d5533d04a9f3-1500w.jpg', alt: 'Image 19' },
     { src: '/image.png', alt: 'Image 19' },
+    { src: '/s1.PNG', alt: 'Image 20' },
+    { src: '/s2.PNG', alt: 'Image 21' },
+    { src: '/s2.PNG', alt: 'Image 21' },
+    { src: '/s3.PNG', alt: 'Image 22' },
+    { src: '/s4.PNG', alt: 'Image 23' },
+    { src: '/s4.PNG', alt: 'Image 23' },
+    { src: '/s5.PNG', alt: 'Image 24' },
+    { src: '/s5.PNG', alt: 'Image 24' },
+    { src: '/s6.PNG', alt: 'Image 25' },
+    { src: '/s7.PNG', alt: 'Image 26' },
+    { src: '/s8.PNG', alt: 'Image 27' },
+    { src: '/s9.PNG', alt: 'Image 28' },
+    { src: '/s10.PNG', alt: 'Image 29' },
+    { src: '/s11.PNG', alt: 'Image 30' },
+  
+
     
   
   ];
