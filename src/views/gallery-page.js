@@ -17,7 +17,6 @@ const GalleryPage = (props) => {
     { src: '/IMG_0396.JPG', alt: 'Image 9' },
     { src: '/IMG_0395.JPG', alt: 'Image 10' },
     { src: '/IMG_0393.JPG', alt: 'Image 11' },
-    { src: '/IMG_0390.JPG', alt: 'Image 12' }, 
     { src: '/bbf0d3f2-1743-49ed-8b29-8b6bc8b8635a-1500w.jpg', alt: 'Image 13' }, 
     { src: '/2209e84d-a845-4f6b-871d-aec16fbed8fc-1500w.jpg', alt: 'Image 14' }, 
     { src: '/468a92ef-3fe8-4bd0-90fa-60332fd5cca4-1500w.jpg', alt: 'Image 15' }, 
