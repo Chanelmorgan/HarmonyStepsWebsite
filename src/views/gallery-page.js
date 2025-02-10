@@ -36,6 +36,13 @@ const GalleryPage = (props) => {
     { src: '/s9.JPG', alt: 'Image 28' },
     { src: '/s10.JPG', alt: 'Image 29' },
     { src: '/s11.JPG', alt: 'Image 30' },
+    { src: '/s12.JPG', alt: 'Image 31' },
+    { src: '/s13.JPG', alt: 'Image 32' },
+    { src: '/s14.JPG', alt: 'Image 33' },
+    { src: '/s15.JPG', alt: 'Image 34' },
+    { src: '/s16.JPG', alt: 'Image 35' },
+    { src: '/s17.JPG', alt: 'Image 36' },
+    { src: '/s178.JPG', alt: 'Image 37' },
   
 
     
