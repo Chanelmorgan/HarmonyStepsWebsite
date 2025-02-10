@@ -6,7 +6,6 @@ import './gallery-page.css';
 
 const GalleryPage = (props) => {
   const images = [
-    { src: '/IMG_0390.JPG', alt: 'Image 1' },
     { src: '/IMG_0403.JPG', alt: 'Image 2' },
     { src: '/IMG_0402.JPG', alt: 'Image 3' },
     { src: '/IMG_0401.JPG', alt: 'Image 4' },
@@ -27,11 +26,9 @@ const GalleryPage = (props) => {
     { src: '/image.png', alt: 'Image 19' },
     { src: '/s1.JPG', alt: 'Image 20' },
     { src: '/s2.JPG', alt: 'Image 21' },
-    { src: '/s2.JPG', alt: 'Image 21' },
     { src: '/s3.JPG', alt: 'Image 22' },
     { src: '/s4.JPG', alt: 'Image 23' },
     { src: '/s4.JPG', alt: 'Image 23' },
-    { src: '/s5.JPG', alt: 'Image 24' },
     { src: '/s5.JPG', alt: 'Image 24' },
     { src: '/s6.JPG', alt: 'Image 25' },
     { src: '/s7.JPG', alt: 'Image 26' },
