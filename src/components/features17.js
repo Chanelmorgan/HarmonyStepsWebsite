@@ -63,7 +63,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
                 {props.feature2Description ?? (
                   <Fragment>
                     <p className="features17-text3">
-                      Hello! I'm Coach Alex, a certified dance instructor with over 10 years of experience...
+                      More info coming soon...
                     </p>
                   </Fragment>
                 )}
