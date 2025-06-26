@@ -230,7 +230,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
       <div className="home-footer">
         <Footer
           logo="Harmony Steps "
-          text="© 2024 Harmony Steps, developed by Chanel Morgan."
+          text="© 2025 Harmony Steps, developed by Chanel Morgan."
         ></Footer>
       </div>
     </div>
