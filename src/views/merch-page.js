@@ -3,8 +3,6 @@ import { Helmet } from 'react-helmet';
 
 import Navbar from '../components/navbar2';  // Same Navbar as in About and Event Pages
 import MerchBanner from '../components/merch-banner'; // Custom component for Merch Banner
-import Features17 from '../components/features17'; // Reuse Features17 to display merchandise
-import Reviews from '../components/reviews'; // Reuse Reviews section
 import Footer from '../components/footer'; // Reuse Footer section
 import './merch-page.css';  // Add custom styles for the merchandise page
 
