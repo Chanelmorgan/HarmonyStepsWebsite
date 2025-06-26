@@ -135,21 +135,6 @@ Musical theater also holds a special place in my heart. Performing on stage has 
         }
       ></Features17>
 
-      <Features17
-  feature1Title={
-    <Fragment>
-      <h2 className="about-page-text thq-heading-2">Meet Coach Alex</h2>
-    </Fragment>
-  }
-  rootClassName="features17-root-class-name"
-  feature1Description={
-    <Fragment>
-      <p className="about-page-text1 thq-body-large">
-        Hello! I’m Alex Rivera, a lifelong performer and certified dance instructor. With over 10 years of experience in competitive hip-hop and jazz, I bring energy, technique, and fun into every class. I believe in empowering students through movement and building their confidence one step at a time.
-      </p>
-    </Fragment>
-  }
-/>
      
       <div className="home-faq">
         <div className="faqContainer">

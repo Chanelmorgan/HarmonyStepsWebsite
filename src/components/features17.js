@@ -6,9 +6,7 @@ import './features17.css'
 
 const Features17 = (props) => {
   return (
-    <div
-      className={`features17-layout349 thq-section-padding ${props.rootClassName} `}
-    >
+    <div className={`features17-layout349 thq-section-padding ${props.rootClassName} `}>
       <div className="features17-max-width thq-section-max-width">
         <div className="features17-image-container">
           <img
@@ -33,10 +31,10 @@ const Features17 = (props) => {
                 {props.feature1Description ?? (
                   <Fragment>
                     <p className="features17-text3">
-                    Hi there! I’m Coach Jamie, and I’m excited to be here with you. At 22,
-                     I’ve had the chance to dive into my passions for cheerleading, dancing, and musical theater. My journey began with cheerleading,
-                     where I learned the importance of teamwork and high-energy routines. 
-                     This passion naturally led me to dancing, where I could express myself through movement and rhythm.
+                      Hi there! I’m Coach Jamie, and I’m excited to be here with you. At 22,
+                      I’ve had the chance to dive into my passions for cheerleading, dancing, and musical theater. My journey began with cheerleading,
+                      where I learned the importance of teamwork and high-energy routines. 
+                      This passion naturally led me to dancing, where I could express myself through movement and rhythm.
 
 Musical theater also holds a special place in my heart. Performing on stage has taught me so much about blending vocal skills with dramatic flair. I’m thrilled to bring all these experiences into coaching, and I’m here to help you explore your own talents and reach new heights.
                     </p>
@@ -47,6 +45,40 @@ Musical theater also holds a special place in my heart. Performing on stage has 
           </div>
         </div>
       </div>
+
+      <div className="features17-max-width thq-section-max-width">
+        <div className="features17-content">
+          <div className="features17-section-title">
+            <h2>
+              {props.feature2Title ?? (
+                <Fragment>
+                  <h2 className="features17-text2 thq-heading-2">
+                    Meet The Coach
+                  </h2>
+                </Fragment>
+              )}
+            </h2>
+            <div className="features17-content1">
+              <p>
+                {props.feature2Description ?? (
+                  <Fragment>
+                    <p className="features17-text3">
+                      Hello! I'm Coach Alex, a certified dance instructor with over 10 years of experience...
+                    </p>
+                  </Fragment>
+                )}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="features17-image-container">
+          <img
+            alt={props.feature2ImageAlt}
+            src={props.feature2ImageSrc}
+            className="features17-placeholder-image"
+          />
+        </div>
+      </div>
     </div>
   )
 }
@@ -55,9 +87,12 @@ Features17.defaultProps = {
   rootClassName: '',
   feature1Title: undefined,
   feature1ImageAlt: 'ME Image',
-  feature1ImageSrc:
-    'about-me.jpeg',
+  feature1ImageSrc: 'about-me.jpeg',
   feature1Description: undefined,
+  feature2Title: undefined,
+  feature2ImageAlt: 'Coach Image',
+  feature2ImageSrc: 'coach-alex.jpeg',
+  feature2Description: undefined,
 }
 
 Features17.propTypes = {
@@ -66,6 +101,10 @@ Features17.propTypes = {
   feature1ImageAlt: PropTypes.string,
   feature1ImageSrc: PropTypes.string,
   feature1Description: PropTypes.element,
+  feature2Title: PropTypes.element,
+  feature2ImageAlt: PropTypes.string,
+  feature2ImageSrc: PropTypes.string,
+  feature2Description: PropTypes.element,
 }
 
 export default Features17
