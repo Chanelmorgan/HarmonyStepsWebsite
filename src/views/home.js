@@ -1,13 +1,8 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-
 import { Helmet } from 'react-helmet'
 import Features17 from '../components/features17'
 import Navbar from '../components/navbar2'
-import FeatureCard from '../components/feature-card'
-import FeatureCard2 from '../components/feature-card2'
-import FeatureCard3 from '../components/feature-card3'
-import FeatureCard4 from '../components/feature-card4'
 import Question1 from '../components/question1'
 import Footer from '../components/footer'
 import GoogleReviews from '../components/google-review'; 

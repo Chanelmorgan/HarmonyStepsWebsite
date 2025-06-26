@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import { Helmet } from 'react-helmet'
-
 import Navbar from '../components/navbar2'
 import AboutUsBanner from '../components/about-us-banner'
 import Features17 from '../components/features17'
