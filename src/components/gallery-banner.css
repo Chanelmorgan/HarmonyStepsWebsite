@@ -1,0 +1,59 @@
+.gallery-banner-container {
+  gap: var(--dl-space-space-unit);
+  width: 1920px;
+  height: 325px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-custom-secondary1);
+}
+.gallery-banner-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery-banner-container1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery-banner-title {
+  fill: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-neutral-dark);
+  font-size: 36px;
+  text-align: center;
+  font-family: "Nunito";
+}
+.gallery-banner-text {
+  fill: var(--dl-color-custom-neutral-dark);
+  color: var(--dl-color-custom-neutral-dark);
+  text-align: center;
+  font-family: "Nunito";
+}
+.gallery-banner-root-class-name {
+  width: 100%;
+  height: 100%;
+}
+@media(max-width: 1600px) {
+  .gallery-banner-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--dl-color-custom-secondary1);
+  }
+  .gallery-banner-max-width {
+    width: auto;
+  }
+  .gallery-banner-root-class-name {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media(max-width: 1200px) {
+  .gallery-banner-root-class-name {
+    width: 100%;
+    height: 100%;
+  }
+}

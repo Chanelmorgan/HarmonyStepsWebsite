@@ -1,0 +1,239 @@
+.reviews-container {
+  background-color: var(--dl-color-custom-primary1);
+}
+.reviews-max-width {
+  display: flex;
+}
+.reviews-slider {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+.reviews-slider-slide {
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.reviews-content {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reviews-text {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-family: "Nunito";
+}
+.reviews-text01 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: center;
+}
+.reviews-avatar {
+  gap: var(--dl-space-space-unit);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.reviews-avatar-image {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.reviews-avatar-content {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews-text02 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-style: normal;
+  font-weight: 600;
+}
+.reviews-text03 {
+  fill: var(--dl-color-custom-accent1);
+  color: var(--dl-color-custom-accent1);
+}
+.reviews-slider-slide1 {
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.reviews-content1 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.reviews-text04 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+}
+.reviews-text05 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: center;
+  font-family: "Nunito";
+}
+.reviews-avatar1 {
+  gap: var(--dl-space-space-unit);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.reviews-avatar-image1 {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.reviews-avatar-content1 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews-text06 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-style: normal;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.reviews-text07 {
+  fill: var(--dl-color-custom-accent1);
+  color: var(--dl-color-custom-accent1);
+  font-family: "Nunito";
+}
+.reviews-slider-slide2 {
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.reviews-content2 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.reviews-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reviews-text08 {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+}
+.reviews-text09 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  text-align: center;
+  font-family: "Nunito";
+}
+.reviews-avatar2 {
+  gap: var(--dl-space-space-unit);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.reviews-avatar-image2 {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.reviews-avatar-content2 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews-text10 {
+  fill: var(--dl-color-custom-neutral-light);
+  color: var(--dl-color-custom-neutral-light);
+  font-style: normal;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.reviews-text11 {
+  fill: var(--dl-color-custom-accent1);
+  color: var(--dl-color-custom-accent1);
+  font-family: "Nunito";
+}
+.reviews-slider-pagination {
+  display: block;
+}
+.reviews-slider-button-prev {
+  fill: var(--dl-color-custom-accent1);
+  color: var(--dl-color-custom-accent1);
+}
+.reviews-slider-button-next {
+  fill: var(--dl-color-custom-accent1);
+  color: var(--dl-color-custom-accent1);
+}
+@media(max-width: 991px) {
+  .reviews-content {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+  }
+  .reviews-content1 {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+  }
+  .reviews-content2 {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+  }
+}
+@media(max-width: 767px) {
+  .reviews-slider-slide {
+    padding: var(--dl-space-space-threeunits);
+  }
+  .reviews-slider-slide1 {
+    padding: var(--dl-space-space-threeunits);
+  }
+  .reviews-slider-slide2 {
+    padding: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 479px) {
+  .reviews-slider-slide1 {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
+  .reviews-slider-slide2 {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
+}

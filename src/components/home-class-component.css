@@ -1,0 +1,149 @@
+.home-class-component-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-custom-neutral-light);
+}
+.home-class-component-max-width {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home-class-component-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home-class-component-container2 {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.home-class-component-image {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+}
+.home-class-component-text {
+  font-family: "Nunito";
+}
+.home-class-component-text1 {
+  text-align: center;
+  font-family: "Nunito";
+}
+.home-class-component-text2 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-class-component-container3 {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-cardradius);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.home-class-component-image1 {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+}
+.home-class-component-text3 {
+  font-family: "Nunito";
+}
+.home-class-component-text4 {
+  text-align: center;
+  font-family: "Nunito";
+}
+.home-class-component-text5 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-class-component-container4 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home-class-component-container5 {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-cardradius);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.home-class-component-image2 {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+}
+.home-class-component-text6 {
+  width: 272px;
+  height: 52px;
+  font-family: "Nunito";
+}
+.home-class-component-text7 {
+  text-align: center;
+  font-family: "Nunito";
+}
+.home-class-component-text8 {
+  top: var(--dl-space-space-unit);
+  right: var(--dl-space-space-unit);
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 1200px) {
+  .home-class-component-text5 {
+    top: 18px;
+    right: 2px;
+  }
+}
+@media(max-width: 991px) {
+  .home-class-component-max-width {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .home-class-component-container1 {
+    flex-direction: column;
+  }
+  .home-class-component-container2 {
+    width: 100%;
+  }
+  .home-class-component-container3 {
+    width: 100%;
+  }
+  .home-class-component-container4 {
+    flex-direction: column;
+  }
+  .home-class-component-container5 {
+    width: 100%;
+  }
+}

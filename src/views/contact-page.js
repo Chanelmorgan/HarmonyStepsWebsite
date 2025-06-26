@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar2'
+import ContactBanner from '../components/contact-banner'
 import ContactForm from '../components/contact-form'
 import Contact3 from '../components/contact3'
 import Map from '../components/map'
