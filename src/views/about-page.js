@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 
 import { Helmet } from 'react-helmet'
 import Navbar from '../components/navbar2'
-import AboutUsBanner from '../components/about-us-banner'
 import Features17 from '../components/features17'
 import Reviews from '../components/reviews'
 import Footer from '../components/footer'
@@ -21,7 +20,7 @@ const AboutPage = (props) => {
         text3="About"
         rootClassName="navbar-root-class-name4"
       ></Navbar>
-      {/* <AboutUsBanner rootClassName="about-us-banner-root-class-name"></AboutUsBanner> */}
+  
       <Features17
         feature1Title={
           <Fragment>
