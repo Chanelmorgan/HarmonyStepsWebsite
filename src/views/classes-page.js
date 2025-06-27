@@ -26,13 +26,13 @@ const ClassesPage = (props) => {
         <div className="class-item">
           <PomInfo
             rootClassName="pom-info-root-class-name"
-            feature1ImageSrc="/pompom.png" // Make sure this path is correct
+            feature1ImageSrc="/pompom.png" 
           />
         </div>
 
         <div className="class-item">
           <MusicalTheareInfo
-            feature1ImageSrc="/mt2-1400w.webp" // Correct path to image
+            feature1ImageSrc="/mt2-1400w.webp" 
             feature1Description="Our musical theatre classes combine acting, singing and dancing to tell stories through music and performance."
           />
         </div>
@@ -40,7 +40,7 @@ const ClassesPage = (props) => {
         <div className="class-item">
           <PrivateClassInfo
             feature1Title="Private Classes"
-            feature1ImageSrc="/studio2-1400w.webp" // Make sure this path is correct
+            feature1ImageSrc="/studio2-1400w.webp" 
           />
         </div>
       </div>

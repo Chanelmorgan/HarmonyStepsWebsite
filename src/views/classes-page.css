@@ -32,10 +32,9 @@
   color: #23297F;
 }
 
-/* Individual Class Item */
 .class-item {
   display: flex;
-  flex-direction: row; /* Align image on the left and text on the right */
+  flex-direction: row; 
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
@@ -63,7 +62,7 @@
   object-fit: cover; /* Ensure the image covers the space without distortion */
 }
 
-/* Class Info Section */
+
 .class-info {
   flex: 2;
   display: flex;
