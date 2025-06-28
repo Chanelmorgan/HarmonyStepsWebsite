@@ -29,10 +29,19 @@ const ClassesPage = (props) => {
         alt="Classes" 
         className="responsive-classes-image" 
       />
+
+            <section className="fees-section">
+        <h2 className="fees-heading">Class Fees</h2>
+        <ul className="fees-list">
+          <li><strong>Pom Cheerleading:</strong> £6 per session</li>
+          <li><strong>Musical Theatre:</strong> £7 per session</li>
+          <li><strong>Private Classes:</strong> Contact us for pricing</li>
+        </ul>
+      </section>
    
 
 
-<Enroll_btn />
+<Enroll_btn /> 
       
 
 

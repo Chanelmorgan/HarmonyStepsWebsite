@@ -16,6 +16,38 @@
   margin: 0 auto;
   max-width: 100%;
 }
+
+.fees-section {
+  padding: 4rem 1rem;
+  background-color: #fff0f5; /* Light pink tone from your brand */
+  text-align: center;
+  border-top: 2px solid #e0c3fc;
+  border-bottom: 2px solid #e0c3fc;
+}
+
+.fees-heading {
+  font-size: 2rem;
+  color: #7b2cbf; /* A rich purple that matches your site’s accent */
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fees-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+  font-size: 1.125rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fees-list li {
+  margin: 0.75rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #ccc;
+}
 /* Class Banner */
 .event-banner-root-class-name {
   margin-bottom: 30px;

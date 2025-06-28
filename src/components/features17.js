@@ -63,7 +63,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
                 {props.feature2Description ?? (
                   <Fragment>
                     <p className="about-page-text1 thq-body-large">
-                      More info coming soon...
+                    Olivia has been dancing since she was 5 and is currently studying  Performing Arts - dance level 3 diploma at Lewes College. Olivia has a Level 2 Btec in performing arts and also achieved her Dance Leadership qualification. Olivia has performed in many musical theatre productions including Matilda Junior starring as Matilda. She has got experience in gymnastics, where she has completed her gymnastics proficiency awards. Olivia has competed in many Dance Live competitions representing her previous school, where she was also apart of the dance leadership team.
                     </p>
                   </Fragment>
                 )}
