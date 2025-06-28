@@ -25,9 +25,6 @@ const ClassesPage = (props) => {
       <img  src="classes.jpg"/>
       <img src="classes.jpg" alt="Classes" />
 
-<Link to="/contact-page" className="timetable-navlink thq-button-filled">
-  Enroll Now
-</Link>
 
    
 
