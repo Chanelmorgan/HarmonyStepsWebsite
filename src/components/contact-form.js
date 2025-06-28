@@ -125,7 +125,7 @@ ContactForm.defaultProps = {
   imageAlt: 'Image1',
   rootClassName: '',
   content2: undefined,
-  imageSrc: '',
+  imageSrc: 'https://images.unsplash.com/photo-1673890686816-d8ee4c181a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMzEyMjQ5N3w&ixlib=rb-4.0.3&q=80&w=1080',
 };
 
 ContactForm.propTypes = {
