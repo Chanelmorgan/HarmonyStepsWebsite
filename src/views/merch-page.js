@@ -92,7 +92,7 @@ const MerchPage = () => {
           <p className="merch-item-description"> </p>
           <p className="merch-item-price">£32.00</p>
           {/* Order Here button using mailto */}
-        <a className="add-to-cart-button" href="" >Order Here</a>
+        <a className="add-to-cart-button" href="https://buy.stripe.com/6oU5kv3Ut7rE8UE2q577O0c" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -101,7 +101,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£32.00</p>
           {/* Order Here button using mailto */}
-          <a className="add-to-cart-button" href="" ></a>
+          <a className="add-to-cart-button" href="https://buy.stripe.com/6oU5kv3Ut7rE8UE2q577O0c" ></a>
         </div>
 
         <div className="merch-item">
