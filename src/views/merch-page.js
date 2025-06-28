@@ -50,7 +50,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/Leggings.png" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/leggings.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Lycra Leggings</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£26.50</p>
@@ -59,7 +59,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/Leggings1.png" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/leggings1.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Leggings</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£25.00</p>
@@ -68,10 +68,10 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/stickers.JPG" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Sticker Pack</h3>
-          <p className="merch-item-description">Show off your Harmony Steps spirit with this fun sticker pack! </p>
-          <p className="merch-item-price">£5.00</p>
+          <img src="/SportsBra.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Sports Bra</h3>
+          <p className="merch-item-description"> </p>
+          <p className="merch-item-price">£22.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker Pack.`} className="add-to-cart-button">Order Here</a>
         </div>
@@ -80,7 +80,7 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/bows.JPG" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Bows</h3>
-          <p className="merch-item-description">Add a cute and stylish touch to your outfit with the Harmony Steps Bow! Whether you’re attending an event or just showing off your spirit, this bow is the perfect accessory to complete your look.</p>
+          <p className="merch-item-description"></p>
           <p className="merch-item-price">£7.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order a Harmony Steps Bow.`} className="add-to-cart-button">Order Here</a>
