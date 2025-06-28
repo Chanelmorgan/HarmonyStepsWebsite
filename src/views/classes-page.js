@@ -24,7 +24,7 @@ const ClassesPage = (props) => {
       <ClassBanner rootClassName="event-banner-root-class-name" />
 
       <img  src="classes.jpg"/>
-      <img src="classes.jpg" alt="Classes" />
+   
 
 <Link to="/contact-page" className="timetable-navlink thq-button-filled">
   Enroll Now
@@ -32,22 +32,6 @@ const ClassesPage = (props) => {
       
 
 
-   
-
-      <Timetable
-        text={
-          <span className="classes-page-text thq-body-small">
-            Tutts Barn Ln, Eastbourne <br />BN22 8XP
-          </span>
-        }
-        text1={
-          <span className="classes-page-text05 thq-body-small">
-            Tutts Barn Ln, Eastbourne <br />BN22 8XP
-          </span>
-        }
-        content1="Our classes are conveniently scheduled, with flexible days and times for private sessions to accommodate busy lifestyles."
-        rootClassName="timetable-root-class-name"
-      />
 
       <Footer rootClassName="footer-root-class-name3" />
     </div>

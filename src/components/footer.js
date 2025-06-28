@@ -77,7 +77,7 @@ Footer.defaultProps = {
   nav52: 'Contact',
   nav55: 'Merch',
   nav32: 'Events',
-  text: '© 2024 Harmony Steps,  developed by Chanel Morgan.',
+  text: '© 2025 Harmony Steps,  developed by Chanel Morgan.',
   logo: 'Harmony Steps ',
   rootClassName: '',
 }
