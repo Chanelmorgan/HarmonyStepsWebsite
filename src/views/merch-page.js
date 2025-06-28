@@ -32,9 +32,9 @@ const MerchPage = () => {
       <section className="merch-items">
         {/* Example of a Merchandise Item */}
         <div className="merch-item">
-          <img src="/t-shirt.JPG" alt="Merchandise T-Shirt" className="merch-item-image" />
+          <img src="/Tshirts.png" alt="Merchandise T-Shirt" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps T-Shirt</h3>
-          <p className="merch-item-description">Comfortable and stylish t-shirt featuring the Harmony Steps logo.</p>
+          <p className="merch-item-description"></p>
           <p className="merch-item-price">£25.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps T-Shirt.`} className="add-to-cart-button">Order Here</a>

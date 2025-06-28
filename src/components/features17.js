@@ -62,7 +62,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
               <p>
                 {props.feature2Description ?? (
                   <Fragment>
-                    <p className="features17-text3">
+                    <p className="about-page-text1 thq-body-large">
                       More info coming soon...
                     </p>
                   </Fragment>
