@@ -22,14 +22,12 @@ const ClassesPage = (props) => {
       <Navbar rootClassName="navbar-root-class-name3" />
       <ClassBanner rootClassName="event-banner-root-class-name" />
 
-      <img  src="classes.png"/> 
-    
-      <Link to="/contact-page" className="timetable-navlink thq-button-filled">
+      <img  src="classes.jpg"/>
+      <img src="classes.jpg" alt="Classes" />
+
+<Link to="/contact-page" className="timetable-navlink thq-button-filled">
   Enroll Now
 </Link>
-
-
-
 
    
 

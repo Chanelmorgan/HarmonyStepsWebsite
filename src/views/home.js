@@ -117,19 +117,19 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <h1 className="about-page-text thq-heading-2">Meet The Teachers </h1>
       <Features17
         feature1Title={
           <Fragment>
-            <h2 className="about-page-text thq-heading-2">Meet The Coach</h2>
+            <h2 className="about-page-text thq-heading-2">Studio Owner</h2>
           </Fragment>
         }
         rootClassName="features17-root-class-name"
         feature1Description={
           <Fragment>
             <p className="about-page-text1 thq-body-large">
-            Hi there! I’m Bianca Matthews, and I’m excited to be here with you. At 22, I’ve had the chance to dive into my passions for cheerleading, dancing, and musical theater. My journey began with cheerleading, where I learned the importance of teamwork and high-energy routines. This passion naturally led me to, where I could express myself through movement and rhythm.
-
-Musical theater also holds a special place in my heart. Performing on stage has taught me so much about blending vocal skills with dramatic flair. I’m thrilled to bring all these experiences into coaching, and I’m here to help you explore your own talents and reach new heights.
+           Bianca began dancing at the age of 4, and started working professionally at the age of 14. Bianca has been cast and taken part in two musical theatre national tours, and has worked on many television shows.
+She started teaching dance , musical theatre and gymnastics at the age of 16, and opened HSDC in May 2024, following her dream of owning her own dance school. Since then, HSDC have had incredible success with our competition teams, becoming regional champions and qualifying for the World Dance Championships in NYC.
             </p>
           </Fragment>
         }

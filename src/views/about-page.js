@@ -22,11 +22,11 @@ const AboutPage = (props) => {
         text3="About"
         rootClassName="navbar-root-class-name4"
       ></Navbar>
-      {/* <AboutUsBanner rootClassName="about-us-banner-root-class-name"></AboutUsBanner> */}
+      {/* <AboutUsBanner rootClassName="about-us-banner-root-class-name"></AboutUsBanner> */} 
       <Features17
         feature1Title={
           <Fragment>
-            <h2 className="about-page-text thq-heading-2">Meet The Coach</h2>
+            <h2 className="about-page-text thq-heading-2">Studio Owner</h2>
           </Fragment>
         }
         rootClassName="features17-root-class-name"
