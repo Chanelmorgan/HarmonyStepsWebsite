@@ -30,9 +30,9 @@ const ClassesPage = (props) => {
         className="responsive-classes-image" 
       />
 
-            <section className="fees-section">
-        <h2 className="fees-heading">Class Fees</h2> 
-        <h3> Group Classes-Monthly</h3>
+        <section className="fees-section">
+        <h2 className="fees-heading">Fees</h2> 
+        <p> Group classes are charged on a monthly basis</p>
         <ul className="fees-list"> 
           <li><strong>Musical Theatre:</strong> £25</li>
           <li><strong>Cheerleading:</strong> £25 </li>
