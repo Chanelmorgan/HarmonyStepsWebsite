@@ -162,9 +162,7 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
                 text={
                   <Fragment>
                     <span className="home-text48">
-                      We offer cheerleading, musical theatre, and private
-                      one-on-one coaching tailored to individual needs and skill
-                      levels. 
+                     We offer a wide range of dance styles including  cheerleading, commercial, contemporary, lyrical, musical theatre, and our famous competition teams.
                     </span>
                   </Fragment>
                 }
@@ -198,30 +196,27 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
                 text={
                   <Fragment>
                     <span className="home-text51">
-                      Our musical theatre classes cover acting, singing, and
-                      dancing, focusing on performance skills, stage presence,
-                      and character development.
+                      You can register online through our website or in person at our studio during business hours. Visit our classes page to get started.
                     </span>
                   </Fragment>
                 }
-                answer="You can easily register online through our website or by contacting us via phone, email or social media. \n"
-                question="What are the musical theatre classes ?"
+                answer="You can register online through our website or in person at our studio during business hours. Visit our classes page to get started.\n"
+                question="How do I register for classes?"
               ></Question1>
               <Question1
                 text={
                   <Fragment>
                     <span className="home-text52">
                       <span>
-                        Pom cheerleading combines dance and cheerleading
-                        techniques, using pom-poms to enhance visual effect of routines.
+                        Our competitive dance season typically runs from September through July, with classes running all year round.
                       </span>
                       <br></br>
                       
                     </span>
                   </Fragment>
                 }
-                answer="Yes, we offer trial classes for new students to experience our classes before committing to a full session."
-                question="What is pom cheerleading ?"
+                answer="Our competitive dance season typically runs from September through July, with classes running all year round."
+                question="When does the new dance season start?"
               ></Question1>
             </div>
           </div>
