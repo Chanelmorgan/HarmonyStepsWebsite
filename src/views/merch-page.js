@@ -123,13 +123,52 @@ const MerchPage = () => {
         </div>
 
          <div className="merch-item">
-          <img src="/StanleyWaterBottlecopy.png.png" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/StanleyWaterBottlecopy.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Stanley Sports Style Water Bottle</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£27.50</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
         </div>
+
+          <div className="merch-item">
+          <img src="/Bag.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Draw String Bag</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£15.00</p>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+        </div>
+
+        <div className="merch-item">
+          <img src="/CostumeBag.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Costume Bag</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£26.50</p>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+        </div>
+
+         <div className="merch-item">
+          <img src="/CropTop.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Crop Top</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£20.00</p>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+        </div>
+
+
+         <div className="merch-item">
+          <img src="/Hoodies.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Hoodie</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£30.00</p>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+        </div>
+
+
 
       </section>
 
