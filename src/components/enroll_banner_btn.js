@@ -2,7 +2,7 @@
 import React from 'react';
 import './google-review.css';
 
-const enroll_btn = () => {
+const Enroll_btn = () => {
   return (
     <div className="google-reviews-container">
       <h2 className="google-reviews-heading">CONTACT US TO REGISTER NOW!</h2>
@@ -18,4 +18,4 @@ const enroll_btn = () => {
   );
 };
 
-export default enroll_btn;
+export default Enroll_btn;
