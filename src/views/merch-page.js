@@ -46,7 +46,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£35.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Zip-up Team Hoodie.`} className="add-to-cart-button">Order Here</a>
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps elite team jacket.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -55,16 +55,16 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£26.50</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Leggings.`} className="add-to-cart-button">Order Here</a>
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps lycra leggings.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
-          <img src="/mum-hood.JPG" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Dance Mum/Dad Hoodie</h3>
-          <p className="merch-item-description">This hoodie is perfect for all Dance Mums and Dads!</p>
-          <p className="merch-item-price">£35.00</p>
+          <img src="/Leggings1.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Leggings</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£25.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Dance Mum/Dad Hoodie.`} className="add-to-cart-button">Order Here</a>
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps leggings.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
