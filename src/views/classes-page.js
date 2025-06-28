@@ -32,7 +32,7 @@ const ClassesPage = (props) => {
 
         <section className="fees-section">
         <h2 className="fees-heading">Fees</h2> 
-        <p> Group classes are charged on a monthly basis</p>
+        <p className="classes_text"> Group classes are charged on a monthly basis</p>
         <ul className="fees-list"> 
           <li><strong>Musical Theatre:</strong> £25</li>
           <li><strong>Cheerleading:</strong> £25 </li>
