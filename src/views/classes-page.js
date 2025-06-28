@@ -34,11 +34,11 @@ const ClassesPage = (props) => {
         <h2 className="fees-heading">Fees</h2> 
         <p className="classes_text"> Group classes are charged on a monthly basis</p>
         <ul className="fees-list"> 
-          <li><strong>Musical Theatre:</strong> £25</li>
-          <li><strong>Cheerleading:</strong> £25 </li>
-          <li><strong>Commercial:</strong> £25 </li>
-          <li><strong>Competition Teams:</strong> £28 </li>
-          <li><strong>Private Classes:</strong> Contact us for pricing</li>
+          <li className="classes_text"><strong>Musical Theatre:</strong> £25</li>
+          <li className="classes_text"><strong>Cheerleading:</strong> £25 </li>
+          <li className="classes_text"><strong>Commercial:</strong> £25 </li>
+          <li className="classes_text"><strong>Competition Teams:</strong> £28 </li>
+          <li className="classes_text"><strong>Private Classes:</strong> Contact us for pricing</li>
         </ul>
       </section>
    
