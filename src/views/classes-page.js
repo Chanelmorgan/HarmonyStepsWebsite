@@ -8,6 +8,7 @@ import Timetable from '../components/timetable';
 import Footer from '../components/footer';
 import ClassBanner from '../components/NEW-classes-banner';
 import './classes-page.css';
+import { Link } from 'react-router-dom';
 
 const ClassesPage = (props) => {
   return (
@@ -23,6 +24,11 @@ const ClassesPage = (props) => {
       <ClassBanner rootClassName="event-banner-root-class-name" />
 
       <img  src="classes.jpg"/>
+      <img src="classes.jpg" alt="Classes" />
+
+<Link to="/contact-page" className="timetable-navlink thq-button-filled">
+  Enroll Now
+</Link>
       
 
 
