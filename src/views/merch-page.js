@@ -50,7 +50,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/Leggings.PNG" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/Leggings.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Lycra Leggings</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£26.50</p>
@@ -59,7 +59,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/ Leggings1.PNG" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/ Leggings1.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Leggings</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£25.00</p>
