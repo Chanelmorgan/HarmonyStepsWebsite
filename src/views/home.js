@@ -181,8 +181,8 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
                     </span>
                   </Fragment>
                 }
-                answer="Our classes are designed for a wide range of ages, starting from young children to teens, with specific programs tailored to these.\n"
-                question="Do you offer beginner classes?"
+                answer="Our classes are designed for dancers of ages 3+. We have classes tailored to each age and skill level.\n"
+                question="What age groups do you teach?"
               ></Question1>
               <Question1
                 text={
