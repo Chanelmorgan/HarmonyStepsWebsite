@@ -53,7 +53,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
               {props.feature2Title ?? (
                 <Fragment>
                   <h2 className="features17-text2 thq-heading-2">
-                    Meet The Coach
+                    Dance Teacher
                   </h2>
                 </Fragment>
               )}
@@ -74,7 +74,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
         <div className="features17-image-container">
           <img
             alt={props.feature2ImageAlt}
-            src={props.feature2ImageSrc}
+            src="8b6982aa-b9dd-463e-b380-2a8a287565a6.JPG"
             className="features17-placeholder-image"
           />
         </div>
