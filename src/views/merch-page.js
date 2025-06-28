@@ -55,7 +55,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£26.50</p>
           {/* Order Here button using mailto */}
-          <a href="" >Order Here</a>
+          <a href="https://buy.stripe.com/eVqbIT76F13g1scaWB77O05" >Order Here</a>
         </div>
 
         <div className="merch-item">
