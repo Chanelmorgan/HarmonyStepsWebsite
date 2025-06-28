@@ -218,6 +218,122 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
                 answer="Our competitive dance season typically runs from September through July, with classes running all year round."
                 question="When does the new dance season start?"
               ></Question1>
+
+              <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        Yes, mid-season enrollment is available depending on class availability. We’ll help you find the right fit and catch up comfortably.
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="Yes, mid-season enrollment is available depending on class availability. We’ll help you find the right fit and catch up comfortably."
+                question="Can I join in the middle of a season?"
+              ></Question1>
+
+               <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        Class fees vary based on style, duration, and frequency. Please see our classes and fees page for full details.
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="Class fees vary based on style, duration, and frequency. Please see our classes and fees page for full details."
+                question="How much do classes cost?"
+              ></Question1>
+
+              <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        Yes! First-time students are welcome to take a trial class, for the price of one lesson. Contact us to schedule your trial.
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="Yes! First-time students are welcome to take a trial class, for the price of one lesson. Contact us to schedule your trial."
+                question="Do you offer trial classes?"
+              ></Question1>
+
+
+              <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        We do not offer refunds for missed classes, but makeup classes may be available. Cancellations due to unforeseen circumstances are handled on a case-by-case basis.
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="We do not offer refunds for missed classes, but makeup classes may be available. Cancellations due to unforeseen circumstances are handled on a case-by-case basis."
+                question="What is your refund policy?"
+              ></Question1> 
+
+              <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        Yes! We host annual recitals and seasonal showcases where students can shine on stage and celebrate their hard work. We also aim to take part in regular community and charity showcases. Our past performances include meads magic, Eastbourne carnival, Eastbourne Pride, and many more!
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="Yes! We host annual recitals and seasonal showcases where students can shine on stage and celebrate their hard work. We also aim to take part in regular community and charity showcases. Our past performances include meads magic, Eastbourne carnival, Eastbourne Pride, and many more!"
+                question="Do students perform in recitals or showcases?"
+              ></Question1> 
+
+              <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        While highly encouraged, recital participation is optional. We respect each dancer’s and family’s decision.
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="While highly encouraged, recital participation is optional. We respect each dancer’s and family’s decision."
+                question="Is performance participation mandatory?"
+              ></Question1> 
+
+               <Question1
+                text={
+                  <Fragment>
+                    <span className="home-text52">
+                      <span>
+                        Proper dance attire is required for each class. Dress codes vary by dance style, but wear something comfortable, that won’t get in the way of your dancing.
+                      </span>
+                      <br></br>
+                      
+                    </span>
+                  </Fragment>
+                }
+                answer="Proper dance attire is required for each class. Dress codes vary by dance style, but wear something comfortable, that won’t get in the way of your dancing."
+                question="What should my child wear to class?"
+              ></Question1> 
+              
+
+
             </div>
           </div>
         </div>
