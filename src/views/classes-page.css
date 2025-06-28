@@ -9,7 +9,13 @@
   box-sizing: border-box;
   background-color: #fff; /* Subtle background color */
 }
-
+.responsive-classes-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
 /* Class Banner */
 .event-banner-root-class-name {
   margin-bottom: 30px;
