@@ -168,8 +168,8 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
                     </span>
                   </Fragment>
                 }
-                answer="We offer cheerleading, musical theatre, and private one-on-one coaching tailored to individual needs and skill levels. "
-                question="Do you offer beginner classes?"
+                answer="We offer a wide range of dance styles including  cheerleading, commercial, contemporary, lyrical, musical theatre, and our famous competition teams."
+                question="What styles of dance do you offer?"
               ></Question1>
               <Question1
                 text={
