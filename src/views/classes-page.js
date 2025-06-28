@@ -22,28 +22,9 @@ const ClassesPage = (props) => {
       <Navbar rootClassName="navbar-root-class-name3" />
       <ClassBanner rootClassName="event-banner-root-class-name" />
 
-      <div className="classes-section">
-        <div className="class-item">
-          <PomInfo
-            rootClassName="pom-info-root-class-name"
-            feature1ImageSrc="/pompom.png" 
-          />
-        </div>
+      <img  src="classes.jpg"/>
 
-        <div className="class-item">
-          <MusicalTheareInfo
-            feature1ImageSrc="/mt2-1400w.webp" 
-            feature1Description="Our musical theatre classes combine acting, singing and dancing to tell stories through music and performance."
-          />
-        </div>
-
-        <div className="class-item">
-          <PrivateClassInfo
-            feature1Title="Private Classes"
-            feature1ImageSrc="/studio2-1400w.webp" 
-          />
-        </div>
-      </div>
+   
 
       <Timetable
         text={
