@@ -25,7 +25,6 @@ const ClassesPage = (props) => {
       <ClassBanner rootClassName="event-banner-root-class-name" />
 
       <img  src="classes.jpg"/>
-      <img  src="HSDC Fees.png"/>
    
 
 <Link to="/contact-page" className="timetable-navlink thq-button-filled">
