@@ -133,7 +133,7 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
             </p>
           </Fragment>
         }
-      ></Features17>
+      ></Features17> 
 
      
       <div className="home-faq">

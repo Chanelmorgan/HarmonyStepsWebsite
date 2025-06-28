@@ -52,7 +52,7 @@ Musical theater also holds a special place in my heart. Performing on stage has 
             <h2>
               {props.feature2Title ?? (
                 <Fragment>
-                  <h2 className="features17-text2 thq-heading-2">
+                  <h2 className="about-page-text thq-heading-2">
                     Dance Teacher
                   </h2>
                 </Fragment>
