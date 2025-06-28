@@ -67,7 +67,7 @@ const ContactPage = (props) => {
               href="tel:+447596257102"
               className="contact-page-link1 thq-body-small"
             >
-              +44 7596 257 102
+              +44 7909 318 613
             </a>
           </Fragment>
         }
