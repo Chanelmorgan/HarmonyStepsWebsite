@@ -78,10 +78,10 @@ const MerchPage = () => {
 
 
         <div className="merch-item">
-          <img src="/bows.JPG" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Bows</h3>
+          <img src="/Shorts.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Shorts</h3>
           <p className="merch-item-description"></p>
-          <p className="merch-item-price">£7.00</p>
+          <p className="merch-item-price">£23.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order a Harmony Steps Bow.`} className="add-to-cart-button">Order Here</a>
         </div>
@@ -89,7 +89,7 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/makeup.jpeg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Makeup Bag</h3>
-          <p className="merch-item-description">Stay organised and fashionable with the Harmony Steps Makeup Bag! </p>
+          <p className="merch-item-description"> </p>
           <p className="merch-item-price">£7.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker makeup bag.`} className="add-to-cart-button">Order Here</a>
@@ -98,7 +98,7 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/summer.JPG" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Summer Uniform</h3>
-          <p className="merch-item-description"> Get ready for summer with the HSDC Summer Uniform! </p>
+          <p className="merch-item-description"></p>
           <p className="merch-item-price">£20.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Summer Uniform.`} className="add-to-cart-button">Order Here</a>
@@ -107,7 +107,7 @@ const MerchPage = () => {
         <div className="merch-item">
           <img src="/BAG.jpeg" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Costume Bag</h3>
-          <p className="merch-item-description">Keep your costume organised and ready to go with the Harmony Steps Costume Bag!</p>
+          <p className="merch-item-description"></p>
           <p className="merch-item-price">£15.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
