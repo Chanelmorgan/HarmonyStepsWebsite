@@ -31,10 +31,13 @@ const ClassesPage = (props) => {
       />
 
             <section className="fees-section">
-        <h2 className="fees-heading">Class Fees</h2>
-        <ul className="fees-list">
-          <li><strong>Pom Cheerleading:</strong> £6 per session</li>
-          <li><strong>Musical Theatre:</strong> £7 per session</li>
+        <h2 className="fees-heading">Class Fees</h2> 
+        <h3> Group Classes-Monthly</h3>
+        <ul className="fees-list"> 
+          <li><strong>Musical Theatre:</strong> £25</li>
+          <li><strong>Cheerleading:</strong> £25 </li>
+          <li><strong>Commercial:</strong> £25 </li>
+          <li><strong>Competition Teams:</strong> £28 </li>
           <li><strong>Private Classes:</strong> Contact us for pricing</li>
         </ul>
       </section>
