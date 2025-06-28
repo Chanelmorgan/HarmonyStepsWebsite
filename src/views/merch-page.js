@@ -87,28 +87,46 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/makeup.jpeg" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Makeup Bag</h3>
+          <img src="/Oodie.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Grey Oodie </h3>
           <p className="merch-item-description"> </p>
-          <p className="merch-item-price">£7.00</p>
+          <p className="merch-item-price">£32.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker makeup bag.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
-          <img src="/summer.JPG" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Summer Uniform</h3>
+          <img src="/PinkOodie.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Pink Oodie</h3>
           <p className="merch-item-description"></p>
-          <p className="merch-item-price">£20.00</p>
+          <p className="merch-item-price">£32.00</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Summer Uniform.`} className="add-to-cart-button">Order Here</a>
         </div>
 
         <div className="merch-item">
-          <img src="/BAG.jpeg" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Costume Bag</h3>
+          <img src="/MetalWaterBottle.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Metal Water Bottle</h3>
           <p className="merch-item-description"></p>
-          <p className="merch-item-price">£15.00</p>
+          <p className="merch-item-price">£16.50</p>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+        </div>
+
+         <div className="merch-item">
+          <img src="/StanleyWaterBottle.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Stanley Water Bottle</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£27.50</p>
+          {/* Order Here button using mailto */}
+          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+        </div>
+
+         <div className="merch-item">
+          <img src="/StanleyWaterBottle.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Stanley Water Bottle</h3>
+          <p className="merch-item-description"></p>
+          <p className="merch-item-price">£27.50</p>
           {/* Order Here button using mailto */}
           <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
         </div>
