@@ -37,7 +37,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£25.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps T-Shirt.`} className="add-to-cart-button">Order Here</a>
+         <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -46,16 +46,16 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£35.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps elite team jacket.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
-          <img src="/leggings.png" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/Leggings.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Lycra Leggings</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£26.50</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps lycra leggings.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -64,7 +64,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£25.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps leggings.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -73,7 +73,7 @@ const MerchPage = () => {
           <p className="merch-item-description"> </p>
           <p className="merch-item-price">£22.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker Pack.`} className="add-to-cart-button">Order Here</a>
+         <a href="" >Order Here</a>
         </div>
 
 
@@ -83,7 +83,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£23.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order a Harmony Steps Bow.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -92,7 +92,7 @@ const MerchPage = () => {
           <p className="merch-item-description"> </p>
           <p className="merch-item-price">£32.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Sticker makeup bag.`} className="add-to-cart-button">Order Here</a>
+        <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -101,7 +101,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£32.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Summer Uniform.`} className="add-to-cart-button">Order Here</a>
+          <a href="" ></a>
         </div>
 
         <div className="merch-item">
@@ -110,7 +110,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£16.50</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
          <div className="merch-item">
@@ -119,7 +119,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£27.50</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
          <div className="merch-item">
@@ -128,7 +128,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£27.50</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+         <a href="" >Order Here</a>
         </div>
 
           <div className="merch-item">
@@ -137,7 +137,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£15.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
         <div className="merch-item">
@@ -146,7 +146,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£26.50</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
          <div className="merch-item">
@@ -155,7 +155,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£20.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+          <a href="" >Order Here</a>
         </div>
 
 
@@ -165,7 +165,7 @@ const MerchPage = () => {
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£30.00</p>
           {/* Order Here button using mailto */}
-          <a href={`mailto:${emailRecipient}?subject=${encodeURIComponent(emailSubject)}&body=I would like to order the Harmony Steps Costume Bag.`} className="add-to-cart-button">Order Here</a>
+         <a href="" >Order Here</a>
         </div>
 
 
