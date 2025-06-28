@@ -59,7 +59,7 @@ const MerchPage = () => {
         </div>
 
         <div className="merch-item">
-          <img src="/ Leggings1.png" alt="Merchandise Mug" className="merch-item-image" />
+          <img src="/Legging.png" alt="Merchandise Mug" className="merch-item-image" />
           <h3 className="merch-item-title">Harmony Steps Leggings</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£25.00</p>
