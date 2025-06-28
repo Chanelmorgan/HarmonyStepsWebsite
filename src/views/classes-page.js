@@ -8,7 +8,8 @@ import Timetable from '../components/timetable';
 import Footer from '../components/footer';
 import ClassBanner from '../components/NEW-classes-banner';
 import './classes-page.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+import enroll_btn from '../components/enroll_banner_btn'; 
 
 const ClassesPage = (props) => {
   return (
@@ -30,6 +31,8 @@ const ClassesPage = (props) => {
 <Link to="/contact-page" className="timetable-navlink thq-button-filled">
   Enroll Now
 </Link>
+
+<enroll_btn />
       
 
 
