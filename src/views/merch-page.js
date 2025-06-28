@@ -123,8 +123,8 @@ const MerchPage = () => {
         </div>
 
          <div className="merch-item">
-          <img src="/StanleyWaterBottle.png" alt="Merchandise Mug" className="merch-item-image" />
-          <h3 className="merch-item-title">Harmony Steps Stanley Water Bottle</h3>
+          <img src="/StanleyWaterBottlecopy.png.png" alt="Merchandise Mug" className="merch-item-image" />
+          <h3 className="merch-item-title">Harmony Steps Stanley Sports Style Water Bottle</h3>
           <p className="merch-item-description"></p>
           <p className="merch-item-price">£27.50</p>
           {/* Order Here button using mailto */}
