@@ -184,12 +184,11 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
                 text={
                   <Fragment>
                     <span className="home-text50">
-                      You can easily register online through our website or by
-                      contacting us via phone, email or social media. 
+                      We welcome dancers of all levels, from beginners to advanced, you don’t need any prior experience to join HSDC. 
                     </span>
                   </Fragment>
                 }
-                answer="Not at all! We offer beginner, intermediate, and advanced classes. Whether you're stepping into the studio for the first time or have years of experience, we have a class for you."
+                answer=" We welcome dancers of all levels, from beginners to advanced, you don’t need any prior experience to join HSDC. "
                 question="Do I need prior dance experience to join?"
               ></Question1>
               <Question1
