@@ -46,7 +46,19 @@ const GalleryPage = (props) => {
     { src: '/new_1.JPG', alt: 'Image 38' },
     { src: '/new_2.JPG', alt: 'Image 39' },
     { src: '/new_3.JPG', alt: 'Image 40' },
-  
+    { src: '/new_4.JPG', alt: 'Image 41' },
+    { src: '/new_5.JPG', alt: 'Image 42' },
+    { src: '/new_6.JPG', alt: 'Image 43' },
+    { src: '/new_7.JPG', alt: 'Image 44' },
+    { src: '/new_8.JPG', alt: 'Image 45' },
+    { src: '/new_9.JPG', alt: 'Image 46' },
+    { src: '/new_10.JPG', alt: 'Image 47' },
+    { src: '/new_11.JPG', alt: 'Image 48' },
+    { src: '/new_12.JPG', alt: 'Image 49' },
+    { src: '/new_13.JPG', alt: 'Image 50' },
+    { src: '/new_14.JPG', alt: 'Image 51' },
+    { src: '/new_15.JPG', alt: 'Image 52' },
+    { src: '/new_16.JPG', alt: 'Image 53' },
 
   
   ];
