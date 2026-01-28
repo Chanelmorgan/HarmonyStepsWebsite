@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react'
+
 import PropTypes from 'prop-types'
+
 import './features17.css'
 
 const Features17 = (props) => {
   return (
-    <div className={`features17-layout349 thq-section-padding ${props.rootClassName}`}>
-      {/* ===== FEATURE 1 ===== */}
+    <div className={`features17-layout349 thq-section-padding ${props.rootClassName} `}>
       <div className="features17-max-width thq-section-max-width">
         <div className="features17-image-container">
           <img
@@ -18,15 +19,26 @@ const Features17 = (props) => {
           <div className="features17-section-title">
             <h2>
               {props.feature1Title ?? (
-                <h2 className="features17-text2 thq-heading-2">Meet The Coach</h2>
+                <Fragment>
+                  <h2 className="features17-text2 thq-heading-2">
+                    Meet The Coach
+                  </h2>
+                </Fragment>
               )}
             </h2>
             <div className="features17-content1">
               <p>
                 {props.feature1Description ?? (
-                  <p className="features17-text3">
-                    Hi there! I’m Coach Jamie, and I’m excited to be here with you...
-                  </p>
+                  <Fragment>
+                    <p className="features17-text3">
+                      Hi there! I’m Coach Jamie, and I’m excited to be here with you. At 22,
+                      I’ve had the chance to dive into my passions for cheerleading, dancing, and musical theater. My journey began with cheerleading,
+                      where I learned the importance of teamwork and high-energy routines. 
+                      This passion naturally led me to dancing, where I could express myself through movement and rhythm.
+
+Musical theater also holds a special place in my heart. Performing on stage has taught me so much about blending vocal skills with dramatic flair. I’m thrilled to bring all these experiences into coaching, and I’m here to help you explore your own talents and reach new heights.
+                    </p>
+                  </Fragment>
                 )}
               </p>
             </div>
@@ -34,21 +46,26 @@ const Features17 = (props) => {
         </div>
       </div>
 
-      {/* ===== FEATURE 2 ===== */}
       <div className="features17-max-width thq-section-max-width">
         <div className="features17-content">
           <div className="features17-section-title">
             <h2>
               {props.feature2Title ?? (
-                <h2 className="about-page-text thq-heading-2">Dance Teacher – Olivia</h2>
+                <Fragment>
+                  <h2 className="about-page-text thq-heading-2">
+                    Dance Teacher
+                  </h2>
+                </Fragment>
               )}
             </h2>
             <div className="features17-content1">
               <p>
                 {props.feature2Description ?? (
-                  <p className="about-page-text1 thq-body-large">
-                    Olivia has been dancing since she was 5 and is currently studying...
-                  </p>
+                  <Fragment>
+                    <p className="about-page-text1 thq-body-large">
+                    Olivia has been dancing since she was 5 and is currently studying  Performing Arts - dance level 3 diploma at Lewes College. Olivia has a Level 2 Btec in performing arts and also achieved her Dance Leadership qualification. Olivia has performed in many musical theatre productions including Matilda Junior starring as Matilda. She has got experience in gymnastics, where she has completed her gymnastics proficiency awards. Olivia has competed in many Dance Live competitions representing her previous school, where she was also apart of the dance leadership team.
+                    </p>
+                  </Fragment>
                 )}
               </p>
             </div>
@@ -57,38 +74,9 @@ const Features17 = (props) => {
         <div className="features17-image-container">
           <img
             alt={props.feature2ImageAlt}
-            src={props.feature2ImageSrc}
+            src="8b6982aa-b9dd-463e-b380-2a8a287565a6.JPG"
             className="features17-placeholder-image"
           />
-        </div>
-      </div>
-
-      {/* ===== FEATURE 3 (NEW) ===== */}
-      <div className="features17-max-width thq-section-max-width">
-        <div className="features17-image-container">
-          <img
-            alt={props.feature3ImageAlt}
-            src={props.feature3ImageSrc}
-            className="features17-placeholder-image"
-          />
-        </div>
-        <div className="features17-content">
-          <div className="features17-section-title">
-            <h2>
-              {props.feature3Title ?? (
-                <h2 className="features17-text2 thq-heading-2">Amber – Assistant Coach</h2>
-              )}
-            </h2>
-            <div className="features17-content1">
-              <p>
-                {props.feature3Description ?? (
-                  <p className="features17-text3">
-                    Amber brings energy, creativity, and a strong background in performance to the team.
-                  </p>
-                )}
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -101,35 +89,22 @@ Features17.defaultProps = {
   feature1ImageAlt: 'ME Image',
   feature1ImageSrc: 'about-me.jpeg',
   feature1Description: undefined,
-
   feature2Title: undefined,
   feature2ImageAlt: 'Coach Image',
   feature2ImageSrc: 'coach-alex.jpeg',
   feature2Description: undefined,
-
-  feature3Title: undefined,
-  feature3ImageAlt: 'Amber',
-  feature3ImageSrc: 'amber.jpg',
-  feature3Description: undefined,
 }
 
 Features17.propTypes = {
   rootClassName: PropTypes.string,
-
   feature1Title: PropTypes.element,
   feature1ImageAlt: PropTypes.string,
   feature1ImageSrc: PropTypes.string,
   feature1Description: PropTypes.element,
-
   feature2Title: PropTypes.element,
   feature2ImageAlt: PropTypes.string,
   feature2ImageSrc: PropTypes.string,
   feature2Description: PropTypes.element,
-
-  feature3Title: PropTypes.element,
-  feature3ImageAlt: PropTypes.string,
-  feature3ImageSrc: PropTypes.string,
-  feature3Description: PropTypes.element,
 }
 
 export default Features17
