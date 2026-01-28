@@ -133,7 +133,28 @@ She started teaching dance , musical theatre and gymnastics at the age of 16, an
             </p>
           </Fragment>
         }
-      ></Features17> 
+      >
+      </Features17> 
+
+       <Features17
+        feature3Title={
+          <Fragment>
+            <h2 className="about-page-text thq-heading-2">Dance Teacher - Amber</h2>
+          </Fragment>
+        }
+        rootClassName="features17-root-class-name"
+        feature3Description={
+          <Fragment>
+            <p className="about-page-text1 thq-body-large">
+              Amber is a professionally trained dance teacher and performer, having graduated in July 2025 from 'The Brighton Academy' with a three-year degree in Musical Theatre. She holds a DDE Modern Theatre qualification and has completed training in the Estill Singing Technique. Alongside teaching at established dance schools, Amber has worked professionally as a performer, with credits including 'Rat Pack Swingin' at the Sands' EU and UK Tour, dancer at the Goodwood Revival Festival (2024 and 2025), dancer for 'Oh Darling' with Tintoretto Productions, and dancer in 'Jack Stripped Back' panto. Amber is passionate about developing strong technique, performance confidence, and individuality in her students.
+            </p>
+          </Fragment>
+        }
+      >
+
+        </Features17> 
+
+      
 
      
       <div className="home-faq">
