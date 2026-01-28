@@ -37,7 +37,8 @@ const AboutPage = (props) => {
 
 Musical theater also holds a special place in my heart. Performing on stage has taught me so much about blending vocal skills with dramatic flair. I’m thrilled to bring all these experiences into coaching, and I’m here to help you explore your own talents and reach new heights.
             </p>
-          </Fragment>
+          </Fragment> 
+          
         }
       ></Features17>
       <Reviews></Reviews>

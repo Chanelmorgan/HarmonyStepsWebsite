@@ -46,76 +46,6 @@ Musical theater also holds a special place in my heart. Performing on stage has 
         </div>
       </div>
 
-      <div className="features17-max-width thq-section-max-width">
-        <div className="features17-content">
-          <div className="features17-section-title">
-            <h2>
-              {props.feature2Title ?? (
-                <Fragment>
-                  <h2 className="about-page-text thq-heading-2">
-                    Dance Teacher - Olivia
-                  </h2>
-                </Fragment>
-              )}
-            </h2>
-            <div className="features17-content1">
-              <p>
-                {props.feature2Description ?? (
-                  <Fragment>
-                    <p className="about-page-text1 thq-body-large">
-                    Olivia has been dancing since she was 5 and is currently studying  Performing Arts - dance level 3 diploma at Lewes College. Olivia has a Level 2 Btec in performing arts and also achieved her Dance Leadership qualification. Olivia has performed in many musical theatre productions including Matilda Junior starring as Matilda. She has got experience in gymnastics, where she has completed her gymnastics proficiency awards. Olivia has competed in many Dance Live competitions representing her previous school, where she was also apart of the dance leadership team.
-                    </p>
-                  </Fragment>
-                )}
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="features17-image-container">
-          <img
-            alt={props.feature2ImageAlt}
-            src="8b6982aa-b9dd-463e-b380-2a8a287565a6.JPG"
-            className="features17-placeholder-image"
-          />
-        </div>
-      </div> 
-
-
-      <div className="features17-max-width thq-section-max-width">
-        <div className="features17-content">
-          <div className="features17-section-title">
-            <h2>
-              {props.feature3Title ?? (
-                <Fragment>
-                  <h2 className="about-page-text thq-heading-2">
-                    Dance Teacher - Amber
-                  </h2>
-                </Fragment>
-              )}
-            </h2>
-            <div className="features17-content1">
-              <p>
-                {props.feature3Description ?? (
-                  <Fragment>
-                    <p className="about-page-text1 thq-body-large">
-                    Amber is a professionally trained dance teacher and performer, having graduated in July 2025 from 'The Brighton Academy' with a three-year degree in Musical Theatre. She holds a DDE Modern Theatre qualification and has completed training in the Estill Singing Technique. Alongside teaching at established dance schools, Amber has worked professionally as a performer, with credits including 'Rat Pack Swingin' at the Sands' EU and UK Tour, dancer at the Goodwood Revival Festival (2024 and 2025), dancer for 'Oh Darling' with Tintoretto Productions, and dancer in 'Jack Stripped Back' panto. Amber is passionate about developing strong technique, performance confidence, and individuality in her students.
-                    </p>
-                  </Fragment>
-                )}
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="features17-image-container">
-          <img
-            alt={props.feature3ImageAlt}
-            src="8b6982aa-b9dd-463e-b380-2a8a287565a6.JPG"
-            className="features17-placeholder-image"
-          />
-        </div>
-      </div>
-
-
     </div>
   )
 }
@@ -130,10 +60,6 @@ Features17.defaultProps = {
   feature2ImageAlt: 'Coach Image',
   feature2ImageSrc: 'coach-alex.jpeg',
   feature2Description: undefined,
-   feature3Title: undefined,
-  feature3ImageAlt: 'Coach Image',
-  feature3ImageSrc: 'amber.jpg',
-  feature3Description: undefined,
 }
 
 Features17.propTypes = {
@@ -146,10 +72,6 @@ Features17.propTypes = {
   feature2ImageAlt: PropTypes.string,
   feature2ImageSrc: PropTypes.string,
   feature2Description: PropTypes.element,
-  feature3Title: PropTypes.element,
-  feature3ImageAlt: PropTypes.string,
-  feature3ImageSrc: PropTypes.string,
-  feature3Description: PropTypes.element,
 }
 
 export default Features17
