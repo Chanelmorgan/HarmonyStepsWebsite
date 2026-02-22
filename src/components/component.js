@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
 
 import Navbar2 from './navbar2'
-import './component.css'
-
 const AppComponent = (props) => {
   return (
     <div className="app-component-container">

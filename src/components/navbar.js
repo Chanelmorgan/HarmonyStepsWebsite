@@ -1,15 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
-
-import './navbar.css'
 
 const Navbar = (props) => {
   return (
     <header className={`navbar-container ${props.rootClassName} `}>
       <header data-thq="thq-navbar" className="navbar-navbar-interactive">
-        <Link to="/" className="navbar-navlink">
+        <Link href="/" className="navbar-navlink">
           <img
             alt={props.logoAlt}
             src={props.logoSrc}
@@ -18,36 +16,36 @@ const Navbar = (props) => {
         </Link>
         <div data-thq="thq-navbar-nav" className="navbar-desktop-menu">
           <nav className="navbar-links">
-            <Link to="/about-page" className="navbar-navlink1">
+            <Link href="/about-page" className="navbar-navlink1">
               {props.text3}
             </Link>
             <Link
-              to="/classes-page"
+              href="/classes-page"
               className="navbar-link2 thq-body-small thq-link"
             >
               {props.link2}
             </Link>
             <Link
-              to="/coming-soon-page"
+              href="/coming-soon-page"
               className="navbar-link3 thq-body-small thq-link"
             >
               {props.link3}
             </Link>
             <Link
-              to="/gallery-page"
+              href="/gallery-page"
               className="navbar-link4 thq-body-small thq-link"
             >
               {props.link4}
             </Link>
             <Link
-              to="/contact-page"
+              href="/contact-page"
               className="navbar-link5 thq-body-small thq-link"
             >
               {props.link5}
             </Link>
           </nav>
           <div className="navbar-icon-group">
-            <Link to="/coming-soon-page" className="navbar-navlink2">
+            <Link href="/coming-soon-page" className="navbar-navlink2">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="navbar-icon thq-icon-x-small"
@@ -88,7 +86,7 @@ const Navbar = (props) => {
             <span className="thq-body-small thq-link">{props.link3}</span>
             <span className="thq-body-small thq-link">{props.link4}</span>
             <span className="thq-body-small thq-link">{props.link5}</span>
-            <Link to="/about-page" className="navbar-navlink3">
+            <Link href="/about-page" className="navbar-navlink3">
               {props.text3}
             </Link>
           </nav>

@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './reviews.css'
-
 const Reviews = (props) => {
   return (
     <div className="reviews-container thq-section-padding">

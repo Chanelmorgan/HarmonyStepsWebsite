@@ -1,13 +1,11 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom'; 
-import './navbar2.css';
-
+import Link from 'next/link'; 
 const Navbar2 = (props) => {
   return (
     <header className="navbar2-container">
       <header data-thq="thq-navbar" className="navbar2-navbar-interactive">
-        <Link to="/" className="navbar2-link1"> 
+        <Link href="/" className="navbar2-link1"> 
         HARMONY STEPS 
                 {/* <img
           alt={props.logoAlt}
@@ -18,7 +16,7 @@ const Navbar2 = (props) => {
         <div data-thq="thq-navbar-nav" className="navbar2-desktop-menu">
           <nav className="navbar2-links">
            
-            <Link to={props.link2Url} className="navbar2-link2">
+            <Link href={props.link2Url} className="navbar2-link2">
               {props.link2 ?? (
                 <Fragment>
                   <span className="navbar2-text2 thq-link thq-body-small">
@@ -27,7 +25,7 @@ const Navbar2 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to={props.link3Url} className="navbar2-link3">
+            <Link href={props.link3Url} className="navbar2-link3">
               {props.link3 ?? (
                 <Fragment>
                   <span className="navbar2-text thq-link thq-body-small">
@@ -36,7 +34,7 @@ const Navbar2 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to={props.link6Url}>
+            <Link href={props.link6Url}>
                 {props.link6 ?? (
                   <Fragment>
                     <span className="navbar2-text thq-link thq-body-small">
@@ -45,7 +43,7 @@ const Navbar2 = (props) => {
                   </Fragment>
                 )}
               </Link>
-            <Link to={props.link4Url} className="navbar2-link4">
+            <Link href={props.link4Url} className="navbar2-link4">
               {props.link4 ?? (
                 <Fragment>
                   <span className="navbar2-text1 thq-link thq-body-small">
@@ -54,7 +52,7 @@ const Navbar2 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to={props.link5Url} className="navbar2-link5">
+            <Link href={props.link5Url} className="navbar2-link5">
               {props.link5 ?? (
                 <Fragment>
                   <span className="navbar2-text3 thq-link thq-body-small">
@@ -88,7 +86,7 @@ const Navbar2 = (props) => {
             </div>
             <nav className="navbar2-links1">
               
-              <Link to={props.link2Url}>
+              <Link href={props.link2Url}>
                 {props.link2 ?? (
                   <Fragment>
                     <span className="navbar2-text2 thq-link thq-body-small">
@@ -97,7 +95,7 @@ const Navbar2 = (props) => {
                   </Fragment>
                 )}
               </Link>
-              <Link to={props.link3Url}>
+              <Link href={props.link3Url}>
                 {props.link3 ?? (
                   <Fragment>
                     <span className="navbar2-text thq-link thq-body-small">
@@ -106,7 +104,7 @@ const Navbar2 = (props) => {
                   </Fragment>
                 )}
               </Link>
-              <Link to={props.link6Url}>
+              <Link href={props.link6Url}>
                 {props.link6 ?? (
                   <Fragment>
                     <span className="navbar2-text thq-link thq-body-small">
@@ -115,7 +113,7 @@ const Navbar2 = (props) => {
                   </Fragment>
                 )}
               </Link>
-              <Link to={props.link4Url}>
+              <Link href={props.link4Url}>
                 {props.link4 ?? (
                   <Fragment>
                     <span className="navbar2-text1 thq-link thq-body-small">
@@ -124,7 +122,7 @@ const Navbar2 = (props) => {
                   </Fragment>
                 )}
               </Link>
-              <Link to={props.link5Url}>
+              <Link href={props.link5Url}>
                 {props.link5 ?? (
                   <Fragment>
                     <span className="navbar2-text3 thq-link thq-body-small">

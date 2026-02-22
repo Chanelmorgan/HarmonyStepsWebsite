@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './classes-banner.css'
-
 const ClassesBanner = (props) => {
   return (
     <div

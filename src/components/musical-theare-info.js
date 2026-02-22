@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './musical-theare-info.css';
-
 const MusicalTheareInfo = (props) => {
   return (
     <div className="musical-theare-info-layout349 thq-section-padding">

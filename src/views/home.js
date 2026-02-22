@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
-import { Link } from 'react-router-dom'
-
-import { Helmet } from 'react-helmet'
+import Link from 'next/link'
+import Head from 'next/head'
 import Features17 from '../components/features17'
 import Navbar from '../components/navbar2'
 import FeatureCard from '../components/feature-card'
@@ -11,14 +10,12 @@ import FeatureCard4 from '../components/feature-card4'
 import Question1 from '../components/question1'
 import Footer from '../components/footer'
 import GoogleReviews from '../components/google-review'; 
-import './home.css'
-
 const Home = (props) => {
   return (
     <div className="home-container">
-      <Helmet>
+      <Head>
         <title>Harmony Steps</title>
-      </Helmet>
+      </Head>
       
       <Navbar
         text3="About"
@@ -102,7 +99,7 @@ const Home = (props) => {
             </span>
             <div className="home-btn-group">
               <Link
-                to="/classes-page"
+                href="/classes-page"
                 className="home-hero-button1 buttonFilled"
               >
                 <span>
@@ -110,7 +107,7 @@ const Home = (props) => {
                   <br></br>
                 </span>
               </Link>
-              <Link to="/contact-page" className="home-hero-button2 buttonFlat">
+              <Link href="/contact-page" className="home-hero-button2 buttonFlat">
                 Learn More →
               </Link>
             </div>

@@ -1,23 +1,21 @@
 import React, { Fragment } from 'react'
 
-import { Helmet } from 'react-helmet'
+import Head from 'next/head'
 
 import Navbar from '../components/navbar2'
 import AboutUsBanner from '../components/about-us-banner'
 import Features17 from '../components/features17'
 import Reviews from '../components/reviews'
 import Footer from '../components/footer'
-import './about-page.css'
-
 const AboutPage = (props) => {
   return (
     <div className="about-page-container">
-      <Helmet>
+      <Head>
         <title>AboutPage - Harmony Steps</title>
         <meta name="description" content="HarmonySteps" />
         <meta property="og:title" content="AboutPage - Harmony Steps " />
         <meta property="og:description" content="HarmonySteps" />
-      </Helmet>
+      </Head>
       <Navbar
         text3="About"
         rootClassName="navbar-root-class-name4"

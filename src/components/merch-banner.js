@@ -1,7 +1,5 @@
 // src/components/merch-banner.js
 import React from 'react';
-import './merch-banner.css';  // Optional custom styles for the banner
-
 const MerchBanner = ({ rootClassName }) => {
   return (
     <div className={`${rootClassName} merch-banner`}>

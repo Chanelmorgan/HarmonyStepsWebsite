@@ -1,7 +1,5 @@
 // src/components/event-banner.js
 import React from 'react';
-import './event-banner.css';  // Optional custom styles
-
 const EventBanner = ({ rootClassName }) => {
   return (
     <div className={`${rootClassName} event-banner`}>

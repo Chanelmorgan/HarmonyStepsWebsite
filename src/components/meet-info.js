@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './meet-info.css'
-
 const MeetInfo = (props) => {
   return (
     <div

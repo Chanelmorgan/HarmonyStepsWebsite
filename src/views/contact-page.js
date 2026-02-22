@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-import { Helmet } from 'react-helmet'
+import Head from 'next/head'
 
 import Navbar from '../components/navbar2'
 import ContactBanner from '../components/contact-banner'
@@ -8,21 +8,18 @@ import ContactForm from '../components/contact-form'
 import Contact3 from '../components/contact3'
 import Map from '../components/map'
 import Footer from '../components/footer'
-import './contact-page.css'
-
 const ContactPage = (props) => {
   return (
     <div className="contact-page-container">
-      <Helmet>
+      <Head>
         <title>ContactPage - Harmony Steps</title>
         <meta name="description" content="HarmonySteps" />
         <meta property="og:title" content="ContactPage - Harmony Steps " />
         <meta property="og:description" content="HarmonySteps" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap" rel="stylesheet" />
-        
-      </Helmet>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap" rel="stylesheet" />
+      </Head>
       <Navbar rootClassName="navbar-root-class-name2"></Navbar>
       {/* <ContactBanner
         action1="Explore Classes"

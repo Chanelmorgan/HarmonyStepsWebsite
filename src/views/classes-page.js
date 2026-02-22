@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 import Navbar from '../components/navbar2';
 import PomInfo from '../components/pom-info';
 import MusicalTheareInfo from '../components/musical-theare-info';
@@ -7,19 +7,18 @@ import PrivateClassInfo from '../components/private-class-info';
 import Timetable from '../components/timetable';
 import Footer from '../components/footer';
 import ClassBanner from '../components/NEW-classes-banner';
-import './classes-page.css';
-import { Link } from 'react-router-dom'; 
+import Link from 'next/link'; 
 import Enroll_btn from '../components/enroll_banner_btn'; 
 
 const ClassesPage = (props) => {
   return (
     <div className="classes-page-container">
-      <Helmet>
+      <Head>
         <title>ClassesPage - Harmony Steps</title>
         <meta name="description" content="HarmonySteps" />
         <meta property="og:title" content="ClassesPage - Harmony Steps" />
         <meta property="og:description" content="HarmonySteps" />
-      </Helmet>
+      </Head>
 
       <Navbar rootClassName="navbar-root-class-name3" />
       <ClassBanner rootClassName="event-banner-root-class-name" />

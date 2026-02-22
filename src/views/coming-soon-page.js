@@ -1,15 +1,12 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom'; 
-import './not-found.css';
-
-
+import Head from 'next/head';
+import Link from 'next/link';
 const NotFound = (props) => {
   return (
     <div className="not-found-container">
-      <Helmet>
+      <Head>
         <title>Page Not Found</title>
-      </Helmet>
+      </Head>
       
      
       
@@ -18,7 +15,7 @@ const NotFound = (props) => {
           WE ARE SORRY, BUT THE PAGE YOU REQUESTED IS COMING SOON
         </h2>
         
-        <Link to="/" className="back-home-button">
+        <Link href="/" className="back-home-button">
           Go Back to Home
         </Link>
       </div>

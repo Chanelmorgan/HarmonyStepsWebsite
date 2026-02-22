@@ -1,15 +1,13 @@
 import React, { Fragment } from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
-
-import './navbar3.css'
 
 const Navbar3 = (props) => {
   return (
     <header className="navbar3-container">
       <header data-thq="thq-navbar" className="navbar3-navbar-interactive">
-        <Link to="/" className="navbar3-navlink">
+        <Link href="/" className="navbar3-navlink">
           <img
             alt={props.logoAlt1}
             src={props.logoSrc1}
@@ -18,7 +16,7 @@ const Navbar3 = (props) => {
         </Link>
         <div data-thq="thq-navbar-nav" className="navbar3-desktop-menu">
           <nav className="navbar3-links">
-            <Link to="/about-page" className="navbar3-link1">
+            <Link href="/about-page" className="navbar3-link1">
               {props.link1 ?? (
                 <Fragment>
                   <span className="navbar3-text6 thq-body-small thq-link">
@@ -27,7 +25,7 @@ const Navbar3 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to="/classes-page" className="navbar3-link2">
+            <Link href="/classes-page" className="navbar3-link2">
               {props.link2 ?? (
                 <Fragment>
                   <span className="navbar3-text5 thq-body-small thq-link">
@@ -36,7 +34,7 @@ const Navbar3 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to="/coming-soon-page" className="navbar3-link3">
+            <Link href="/coming-soon-page" className="navbar3-link3">
               {props.link3 ?? (
                 <Fragment>
                   <span className="navbar3-text thq-body-small thq-link">
@@ -45,7 +43,7 @@ const Navbar3 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to="/gallery-page" className="navbar3-link4">
+            <Link href="/gallery-page" className="navbar3-link4">
               {props.link4 ?? (
                 <Fragment>
                   <span className="navbar3-text1 thq-body-small thq-link">
@@ -55,7 +53,7 @@ const Navbar3 = (props) => {
                 </Fragment>
               )}
             </Link>
-            <Link to="/contact-page" className="navbar3-link5">
+            <Link href="/contact-page" className="navbar3-link5">
               {props.link5 ?? (
                 <Fragment>
                   <span className="navbar3-text4 thq-body-small thq-link">
@@ -66,7 +64,7 @@ const Navbar3 = (props) => {
             </Link>
           </nav>
           <div className="navbar3-icon-group">
-            <Link to="/coming-soon-page" className="navbar3-navlink1">
+            <Link href="/coming-soon-page" className="navbar3-navlink1">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="navbar3-icon thq-icon-x-small"

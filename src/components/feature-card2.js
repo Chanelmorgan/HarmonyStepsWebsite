@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './feature-card2.css'
-
 const FeatureCard2 = (props) => {
   return (
     <div

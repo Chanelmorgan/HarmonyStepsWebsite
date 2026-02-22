@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import './contact-form.css';
-
 const ContactForm = (props) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -50,15 +48,13 @@ const ContactForm = (props) => {
               )}
             </span>
             <div className="contact-form-content1">
-              <h2>
-                {props.heading1 ?? (
-                  <Fragment>
-                    <h2 className="contact-form-text5 thq-heading-2">
-                      Contact us
-                    </h2>
-                  </Fragment>
-                )}
-              </h2>
+              {props.heading1 ?? (
+                <Fragment>
+                  <h2 className="contact-form-text5 thq-heading-2">
+                    Contact us
+                  </h2>
+                </Fragment>
+              )}
             </div>
           </div>
           <form className="thq-card" onSubmit={handleSubmit}>

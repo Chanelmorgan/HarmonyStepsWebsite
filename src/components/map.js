@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './map.css'
-
 const Map = (props) => {
   return (
     <div
@@ -12,17 +10,14 @@ const Map = (props) => {
       <div className="map-max-width thq-section-max-width">
         <div className="map-section-title">
           <div className="map-content">
-            <h2>
-              {props.heading1 ?? (
-                <Fragment>
-                  <h2 className="map-text2 thq-heading-2">Find Us</h2>
-                </Fragment>
-              )}
-            </h2>
-            <p>
-              {props.content1 ?? (
-                <Fragment>
-                  <p className="map-text3 thq-body-large">
+            {props.heading1 ?? (
+              <Fragment>
+                <h2 className="map-text2 thq-heading-2">Find Us</h2>
+              </Fragment>
+            )}
+            {props.content1 ?? (
+              <Fragment>
+                <p className="map-text3 thq-body-large">
                     <span>
                       Feel free to reach out to us for any inquiries or to
                       register for classes.
@@ -34,10 +29,9 @@ const Map = (props) => {
                         }}
                       />
                     </span>
-                  </p>
-                </Fragment>
-              )}
-            </p>
+                </p>
+              </Fragment>
+            )}
           </div>
         </div>
         <iframe

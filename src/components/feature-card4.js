@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './feature-card4.css'
-
 const FeatureCard4 = (props) => {
   return (
     <div

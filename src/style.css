@@ -51,6 +51,11 @@
   --dl-color-custom-neutral-light: #FFFFFF;
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
+  --dl-transition-duration: 0.25s;
+  --dl-transition-ease: ease;
+  --dl-shadow-sm: 0 1px 3px rgba(8, 10, 69, 0.08);
+  --dl-shadow-md: 0 4px 12px rgba(8, 10, 69, 0.12);
+  --dl-shadow-lg: 0 8px 24px rgba(8, 10, 69, 0.14);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fjalla+One&family=Great+Vibes&family=Playwrite+CU&family=Rubik+Mono+One&family=Sacramento&display=swap');
@@ -110,7 +115,8 @@
   background-color: var(--dl-color-theme-neutral-light);
 }
 .thq-input:focus {
-  outline: 1px solid var(--dl-color-theme-primary1);
+  outline: 2px solid var(--dl-color-theme-primary1);
+  outline-offset: 2px;
 }
 .thq-button-filled {
   gap: var(--dl-space-space-halfunit);
@@ -118,7 +124,10 @@
   color: var(--dl-color-theme-secondary1);
   cursor: pointer;
   display: flex;
-  transition: 0.3s;
+  transition: background-color var(--dl-transition-duration) var(--dl-transition-ease),
+    border-color var(--dl-transition-duration) var(--dl-transition-ease),
+    color var(--dl-transition-duration) var(--dl-transition-ease),
+    box-shadow var(--dl-transition-duration) var(--dl-transition-ease);
   align-items: center;
   font-weight: bold;
   padding-top: var(--dl-space-space-halfunit);
@@ -131,12 +140,18 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
   background-color: var(--dl-color-theme-primary1);
+  box-shadow: var(--dl-shadow-sm);
 }
 .thq-button-filled:hover {
   fill: var(--dl-color-theme-secondary2);
   color: var(--dl-color-theme-secondary2);
   border-color: var(--dl-color-theme-primary2);
   background-color: var(--dl-color-theme-primary2);
+  box-shadow: var(--dl-shadow-md);
+}
+.thq-button-filled:focus-visible {
+  outline: 2px solid var(--dl-color-theme-primary2);
+  outline-offset: 2px;
 }
 .thq-button-outline {
   gap: var(--dl-space-space-halfunit);
@@ -197,7 +212,7 @@
 .classHeading{
   line-height: 1.5;
   fill: var(--dl-color-custom-neutral-dark);
-  color: var(white);
+  color: var(--dl-color-gray-white);
   font-size: 48px;
   font-family: "Fjalla One", system-ui;
   font-weight: 400;
@@ -309,9 +324,13 @@
   align-items: stretch;
   border-radius: var(--dl-radius-radius-cardradius);
   flex-direction: column;
+  transition: box-shadow var(--dl-transition-duration) var(--dl-transition-ease);
+}
+.thq-card:hover {
+  box-shadow: var(--dl-shadow-md);
 }
 .thq-box-shadow {
-  box-shadow: 0px 0px 5px -2px var(--dl-color-theme-neutral-dark);
+  box-shadow: var(--dl-shadow-md);
 }
 .thq-grid-3 {
   display: grid;

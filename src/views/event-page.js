@@ -1,10 +1,8 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 import Navbar from '../components/navbar2';
 import EventBanner from '../components/event-banner'; 
 import Footer from '../components/footer'; 
-import './event-page.css'; 
-
 const EventPage = () => {
   const upcomingEvents = [
    
@@ -32,10 +30,10 @@ const EventPage = () => {
 
   return (
     <div className="event-page-container">
-      <Helmet>
+      <Head>
         <title>Upcoming Events - Harmony Steps</title>
         <meta name="description" content="Join us for upcoming events!" />
-      </Helmet>
+      </Head>
 
       <Navbar text3="Upcoming Events" rootClassName="navbar-root-class-name4" />
       

@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './gallery2.css'
-
 const Gallery2 = (props) => {
   return (
     <div className="gallery2-gallery3 thq-section-padding">

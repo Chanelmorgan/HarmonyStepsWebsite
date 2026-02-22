@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './contact3.css'
-
 const Contact3 = (props) => {
   return (
     <div
@@ -21,13 +19,11 @@ const Contact3 = (props) => {
             )}
           </span>
           <div className="contact3-content">
-            <h2>
-              {props.heading1 ?? (
-                <Fragment>
-                  <h2 className="contact3-text12 thq-heading-2">Contact Us</h2>
-                </Fragment>
-              )}
-            </h2>
+            {props.heading1 ?? (
+              <Fragment>
+                <h2 className="contact3-text12 thq-heading-2">Contact Us</h2>
+              </Fragment>
+            )}
           </div>
         </div>
         <div className="contact3-row">

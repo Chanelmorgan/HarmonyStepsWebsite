@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
-
-import './timetable.css'
 
 const Timetable = (props) => {
   return (
@@ -42,7 +40,7 @@ const Timetable = (props) => {
               </span>
               <div className="timetable-container05">
                 <Link
-                  to="/contact-page"
+                  href="/contact-page"
                   className="timetable-navlink thq-button-filled"
                 >
                   {props.card1Action1}
@@ -74,7 +72,7 @@ const Timetable = (props) => {
               </span>
               <div className="timetable-container09">
                 <Link
-                  to="/contact-page"
+                  href="/contact-page"
                   className="timetable-navlink"
                 >
                   {props.card2Action1}
@@ -97,7 +95,7 @@ const Timetable = (props) => {
               </span>
               <div className="timetable-container13">
                 <Link
-                  to="/contact-page"
+                  href="/contact-page"
                   className="timetable-navlink"
                 >
                   {props.card3Action1}

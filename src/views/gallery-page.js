@@ -1,9 +1,7 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 import Navbar from '../components/navbar2';
 import Footer from '../components/footer';
-import './gallery-page.css';
-
 const GalleryPage = (props) => {
   const images = [
     { src: '/IMG_0403.JPG', alt: 'Image 2' },
@@ -64,12 +62,12 @@ const GalleryPage = (props) => {
 
   return (
     <div className="gallery-page-container">
-      <Helmet>
+      <Head>
         <title>GalleryPage - Harmony Steps</title>
         <meta name="description" content="HarmonySteps Gallery" />
         <meta property="og:title" content="GalleryPage - Harmony Steps " />
         <meta property="og:description" content="HarmonySteps Gallery" />
-      </Helmet>
+      </Head>
       <Navbar rootClassName="navbar-root-class-name1" />
       
       <div className="gallery-page-header">

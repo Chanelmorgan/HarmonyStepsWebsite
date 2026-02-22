@@ -8,7 +8,7 @@
 .navbar3-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: idth;
+  max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
@@ -37,20 +37,22 @@
   flex-direction: row;
   justify-content: center;
 }
-.navbar3-link1 {
-  text-decoration: none;
-}
-.navbar3-link2 {
-  text-decoration: none;
-}
-.navbar3-link3 {
-  text-decoration: none;
-}
-.navbar3-link4 {
-  text-decoration: none;
-}
+.navbar3-link1,
+.navbar3-link2,
+.navbar3-link3,
+.navbar3-link4,
 .navbar3-link5 {
   text-decoration: none;
+  color: var(--dl-color-theme-primary1);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+.navbar3-link1:hover,
+.navbar3-link2:hover,
+.navbar3-link3:hover,
+.navbar3-link4:hover,
+.navbar3-link5:hover {
+  color: var(--dl-color-theme-primary2);
 }
 .navbar3-icon-group {
   gap: var(--dl-space-space-twounits);

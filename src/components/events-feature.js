@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './events-feature.css'
-
 const EventsFeature = (props) => {
   return (
     <div
@@ -20,25 +18,21 @@ const EventsFeature = (props) => {
               </Fragment>
             )}
           </span>
-          <h2>
-            {props.sectionTitle ?? (
-              <Fragment>
-                <h2 className="events-feature-text09 thq-heading-2">
-                  Key Features
-                </h2>
-              </Fragment>
-            )}
-          </h2>
-          <p>
-            {props.sectionDescription ?? (
-              <Fragment>
-                <p className="events-feature-text08 thq-body-large">
-                  Discover the key features that set Harmony Steps apart from
-                  other performing arts schools.
-                </p>
-              </Fragment>
-            )}
-          </p>
+          {props.sectionTitle ?? (
+            <Fragment>
+              <h2 className="events-feature-text09 thq-heading-2">
+                Key Features
+              </h2>
+            </Fragment>
+          )}
+          {props.sectionDescription ?? (
+            <Fragment>
+              <p className="events-feature-text08 thq-body-large">
+                Discover the key features that set Harmony Steps apart from
+                other performing arts schools.
+              </p>
+            </Fragment>
+          )}
         </div>
         <div className="events-feature-content thq-grid-auto-300">
           <div className="events-feature-feature1 thq-flex-column">
@@ -47,15 +41,13 @@ const EventsFeature = (props) => {
               src={props.feature1ImageSrc}
               className="thq-img-ratio-4-3"
             />
-            <h3>
-              {props.feature1Title ?? (
-                <Fragment>
-                  <h3 className="events-feature-text13 thq-heading-3">
-                    Musical Theatre Classes
-                  </h3>
-                </Fragment>
-              )}
-            </h3>
+            {props.feature1Title ?? (
+              <Fragment>
+                <h3 className="events-feature-text13 thq-heading-3">
+                  Musical Theatre Classes
+                </h3>
+              </Fragment>
+            )}
             <span>
               {props.feature1Description ?? (
                 <Fragment>
@@ -73,15 +65,13 @@ const EventsFeature = (props) => {
               src={props.feature2ImageSrc}
               className="thq-img-ratio-4-3"
             />
-            <h3>
-              {props.feature2Title ?? (
-                <Fragment>
-                  <h3 className="events-feature-text07 thq-heading-3">
-                    Pom Cheerleading Program
-                  </h3>
-                </Fragment>
-              )}
-            </h3>
+            {props.feature2Title ?? (
+              <Fragment>
+                <h3 className="events-feature-text07 thq-heading-3">
+                  Pom Cheerleading Program
+                </h3>
+              </Fragment>
+            )}
             <span>
               {props.feature2Description ?? (
                 <Fragment>
@@ -100,15 +90,13 @@ const EventsFeature = (props) => {
               src={props.feature3ImageSrc}
               className="thq-img-ratio-4-3"
             />
-            <h3>
-              {props.feature3Title ?? (
-                <Fragment>
-                  <h3 className="events-feature-text06 thq-heading-3">
-                    Private Coaching Sessions
-                  </h3>
-                </Fragment>
-              )}
-            </h3>
+            {props.feature3Title ?? (
+              <Fragment>
+                <h3 className="events-feature-text06 thq-heading-3">
+                  Private Coaching Sessions
+                </h3>
+              </Fragment>
+            )}
             <span>
               {props.feature3Description ?? (
                 <Fragment>

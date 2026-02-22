@@ -1,7 +1,5 @@
 // src/components/GoogleReviews.js
 import React from 'react';
-import './google-review.css';
-
 const Enroll_btn = () => {
   return (
     <div className="google-reviews-container">

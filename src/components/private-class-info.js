@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './private-class-info.css'
-
 const PrivateClassInfo = (props) => {
   return (
     <div className="private-class-info-layout349 thq-section-padding">

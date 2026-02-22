@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './gallery-banner.css'
-
 const GalleryBanner = (props) => {
   return (
     <div

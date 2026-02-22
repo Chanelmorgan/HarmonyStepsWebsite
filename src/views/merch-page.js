@@ -1,13 +1,11 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
 
 import Navbar from '../components/navbar2';  // Same Navbar as in About and Event Pages
 import MerchBanner from '../components/merch-banner'; // Custom component for Merch Banner
 import Features17 from '../components/features17'; // Reuse Features17 to display merchandise
 import Reviews from '../components/reviews'; // Reuse Reviews section
 import Footer from '../components/footer'; // Reuse Footer section
-import './merch-page.css';  // Add custom styles for the merchandise page
-
 const MerchPage = () => {
 
   // Email settings
@@ -16,12 +14,12 @@ const MerchPage = () => {
 
   return (
     <div className="merch-page-container">
-      <Helmet>
+      <Head>
         <title>Merchandise - Harmony Steps</title>
         <meta name="description" content="Shop Harmony Steps Merchandise" />
         <meta property="og:title" content="Merchandise - Harmony Steps" />
         <meta property="og:description" content="Shop exclusive merchandise from Harmony Steps!" />
-      </Helmet>
+      </Head>
 
       <Navbar text3="Merchandise" rootClassName="navbar-root-class-name4" />
 

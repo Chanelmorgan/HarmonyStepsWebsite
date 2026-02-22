@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './pom-info.css'
-
 const PomInfo = (props) => {
   return (
     <div

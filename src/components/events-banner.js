@@ -2,8 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './events-banner.css'
-
 const EventsBanner = (props) => {
   return (
     <div

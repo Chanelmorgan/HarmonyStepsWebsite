@@ -1,32 +1,30 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
-
-import './footer.css'
 
 const Footer = (props) => {
   return (
     <footer className={`footer-footer footerContainer ${props.rootClassName} `}>
       <div className="footer-container">
-        <Link to="/" className="footer-logo logo">
+        <Link href="/" className="footer-logo logo">
           {props.logo}
         </Link>
         <nav className="footer-nav">
-          <Link to="/classes-page" className="footer-nav12 bodySmall">
+          <Link href="/classes-page" className="footer-nav12 bodySmall">
             {props.nav12}
           </Link>
-          <Link to="/event-page" className="footer-nav32 bodySmall">
+          <Link href="/event-page" className="footer-nav32 bodySmall">
             {props.nav32}
           </Link>
-          <Link to="/merch-page" className="footer-nav32 bodySmall">
+          <Link href="/merch-page" className="footer-nav32 bodySmall">
             {props.nav55}
           </Link>
         
-          <Link to="/gallery-page" className="footer-nav42 bodySmall">
+          <Link href="/gallery-page" className="footer-nav42 bodySmall">
             {props.nav42}
           </Link>
-          <Link to="/contact-page" className="footer-nav52 bodySmall">
+          <Link href="/contact-page" className="footer-nav52 bodySmall">
             {props.nav52}
           </Link>
         </nav>

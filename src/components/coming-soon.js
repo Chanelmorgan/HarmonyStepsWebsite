@@ -2,21 +2,17 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import './coming-soon.css'
-
 const ComingSoon = (props) => {
   return (
     <div className={`coming-soon-container ${props.rootClassName} `}>
       <div className="coming-soon-header">
-        <h2>
-          {props.bannerTitle ?? (
-            <Fragment>
-              <h2 className="coming-soon-text thq-heading-2">
-                COMING SOON......
-              </h2>
-            </Fragment>
-          )}
-        </h2>
+        {props.bannerTitle ?? (
+          <Fragment>
+            <h2 className="coming-soon-text thq-heading-2">
+              COMING SOON......
+            </h2>
+          </Fragment>
+        )}
       </div>
       <button
         type="button"
