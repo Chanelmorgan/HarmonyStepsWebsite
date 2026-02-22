@@ -4,7 +4,7 @@ import Navbar from '../components/navbar2';
 import Footer from '../components/footer';
 import './gallery-page.css';
 
-const GalleryPage = (props) => {
+const GalleryPage = () => {
   const images = [
     { src: '/IMG_0403.JPG', alt: 'Image 2' },
     { src: '/IMG_0402.JPG', alt: 'Image 3' },
@@ -27,7 +27,6 @@ const GalleryPage = (props) => {
     { src: '/s1.JPG', alt: 'Image 20' },
     { src: '/s2.JPG', alt: 'Image 21' },
     { src: '/s3.JPG', alt: 'Image 22' },
-    { src: '/s4.JPG', alt: 'Image 23' },
     { src: '/s4.JPG', alt: 'Image 23' },
     { src: '/s5.JPG', alt: 'Image 24' },
     { src: '/s6.JPG', alt: 'Image 25' },

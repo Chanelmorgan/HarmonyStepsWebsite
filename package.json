@@ -27,10 +27,10 @@
     "vm-browserify": "^1.1.2"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test --env=jsdom",
-    "eject": "craco eject"
+    "start": "npx craco start",
+    "build": "npx craco build",
+    "test": "npx craco test --env=jsdom",
+    "eject": "npx craco eject"
   },
   "engines": {
     "node": ">=18.x"
@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.23.4",
     "react-scripts": "^5.0.1"
   }
 }

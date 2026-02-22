@@ -31,8 +31,8 @@ const App = () => {
         <Route component={AboutPage} exact path="/about-page" />
         <Route component={GalleryPage} exact path="/gallery-page" /> 
         <Route component={MerchPage} exact path="/merch-page" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
+        <Route component={NotFound} path="*" />
+        <Redirect to="/" />
       </Switch>
     </Router>
   )

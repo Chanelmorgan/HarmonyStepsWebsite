@@ -4,14 +4,12 @@ import { Link } from 'react-router-dom';
 import './not-found.css';
 
 
-const NotFound = (props) => {
+const ComingSoonPage = () => {
   return (
     <div className="not-found-container">
       <Helmet>
-        <title>Page Not Found</title>
+        <title>Coming Soon - Harmony Steps</title>
       </Helmet>
-      
-     
       
       <div className="not-found-container2">
         <h2 className="not-found-text2">
@@ -26,4 +24,4 @@ const NotFound = (props) => {
   );
 };
 
-export default NotFound;
+export default ComingSoonPage;
